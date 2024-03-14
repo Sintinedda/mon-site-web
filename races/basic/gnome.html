@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gnome , DND 5ème édition</title>
+    <link rel="stylesheet" href="../../assets/css/race-style.css">
+    <link rel="stylesheet" href="../../assets/css/header-style.css">
+    <link rel="stylesheet" href="../../assets/css/footer-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>L'Arcanium de Donjons & Dragons</h1>
+    </header>
+    <main>
+        <nav>
+            <ul id="nav">
+                <li id="nav_item"><a href="../../index.html#classes">Classes</a>
+                    <ul id="nav_dropdown">
+                        <!--List for classes-->
+                        <li><a href="../../classes/artificer.html">Artificier</a></li>
+                        <li><a href="../../classes/barbarian.html">Barbare</a></li>
+                        <li><a href="../../classes/bard.html">Barde</a></li>
+                        <li><a href="../../classes/cleric.html">Clerc</a></li>
+                        <li><a href="../../classes/druid.html">Druide</a></li>
+                        <li><a href="../../classes/sorcerer.html">Ensorceleur</a></li>
+                        <li><a href="../../classes/fighter.html">Guerrier</a></li>
+                        <li><a href="../../classes/wizard.html">Magicien</a></li>
+                        <li><a href="../../classes/monk.html">Moine</a></li>
+                        <li><a href="../../classes/warlock.html">Occultiste</a></li>
+                        <li><a href="../../classes/paladin.html">Paladin</a></li>
+                        <li><a href="../../classes/ranger.html">Rôdeur</a></li>
+                        <li><a href="../../classes/rogue.html">Roublard</a></li>
+                    </ul>
+                </li>
+                <li id="nav_item"><a href="../../index.html#races">Races</a>
+                    <ul id="nav_dropdown">
+                        <!--List for races-->
+                        <li id="nav_dropdown_item"><a href="../../index.html#basic-race">Basique</a></li>
+                        <li><a href="./half-elf.html">Demi-Elfe</a></li>
+                        <li><a href="./half-orc.html">Demi-Orc</a></li>
+                        <li><a href="./dragonborn.html">Drakéide</a></li>
+                        <li><a href="./elf.html">Elfe</a></li>
+                        <li><a href="./gnome.html">Gnome</a></li>
+                        <li><a href="./halfling.html">Halfelin</a></li>
+                        <li><a href="./human.html">Humain</a></li>
+                        <li><a href="./dwarf.html">Nain</a></li>
+                        <li><a href="./tiefling.html">Tieffelin</a></li>
+                        <li id="nav_dropdown_item"><a href="../../index.html#exotic-race">Exotique</a></li>
+                        <li><a href="../exotic/aarakocra.html">Aarakocra</a></li>
+                        <li><a href="../exotic/aasimar.html">Aasimar</a></li>
+                        <li><a href="../exotic/changling.html">Changelin</a></li>
+                        <li><a href="../exotic/fey.html">Fée</a></li>
+                        <li><a href="../exotic/firbolg.html">Firbolg</a></li>
+                        <li><a href="../exotic/genasi.html">Genasi</a></li>
+                        <li><a href="../exotic/gith.html">Gith</a></li>
+                        <li><a href="../exotic/goliath.html">Goliath</a></li>
+                        <li><a href="../exotic/harengon.html">Harengon</a></li>
+                        <li><a href="../exotic/kenku.html">Kenku</a></li>
+                        <li><a href="../exotic/locathah.html">Locathah</a></li>
+                        <li><a href="../exotic/owlin.html">Owlin</a></li>
+                        <li><a href="../exotic/satyr.html">Satyre</a></li>
+                        <li><a href="../exotic/tabaxi.html">Tabaxi</a></li>
+                        <li><a href="../exotic/tortle.html">Tortle</a></li>
+                        <li><a href="../exotic/triton.html">Triton</a></li>
+                        <li><a href="../exotic/verdan.html">Verdan</a></li>
+                        <li id="nav_dropdown_item"><a href="../../index.html#monstrous-race">Monstrueuse</a></li>
+                        <li><a href="../monstrous/centaur.html">Centaure</a></li>
+                        <li><a href="../monstrous/bugbear.html">Epouvantail</a></li>
+                        <li><a href="../monstrous/goblin.html">Gobelin</a></li>
+                        <li><a href="../monstrous/hobgoblin.html">Gobelours</a></li>
+                        <li><a href="../monstrous/grung.html">Grung</a></li>
+                        <li><a href="../monstrous/kobold.html">Kobold</a></li>
+                        <li><a href="../monstrous/minotaur.html">Minotaure</a></li>
+                        <li><a href="../monstrous/shifter.html">Métamorphe</a></li>
+                        <li><a href="../monstrous/orc.html">Orc</a></li>
+                        <li><a href="../monstrous/lizardfolk.html">Peuple Lézard</a></li>
+                        <li><a href="../monstrous/yuan-ti.html">Yuan-Ti</a></li>
+                        <li id="nav_dropdown_item"><a href="../../index.html#dragonlance-race">Lancedragon</a></li>
+                        <li><a href="../specific/kender.html">Kender</a></li>
+                        <li id="nav_dropdown_item"><a href="../../index.html#eberron-race">Eberron</a></li>
+                        <li><a href="../specific/warforged.html">Forgelin</a></li>
+                        <li><a href="../specific/kalashtar.html">Kalashtar</a></li>
+                        <li id="nav_dropdown_item"><a href="../../index.html#planeshift-race">Changement de Plan</a></li>
+                        <li><a href="../specific/aven.html">Aven</a></li>
+                        <li><a href="../specific/aetherborn.html">Ethéré</a></li>
+                        <li><a href="../specific/khenra.html">Khenra</ali>
+                        <li><a href="../specific/kor.html">Kor</a></li>
+                        <li><a href="../specific/naga.html">Naga</a></li>
+                        <li><a href="../specific/merfolk.html">Peuple de la Mer</a></li>
+                        <li><a href="../specific/siren.html">Sirène</a></li>
+                        <li><a href="../specific/vampire.html">Vampire</a></li>
+                        <li id="nav_dropdown_item"><a href="../../index.html#ravenloft-race">Ravenloft</a></li>
+                        <li><a href="../specific/dhampir.html">Dhampir</a></li>
+                        <li><a href="../specific/reborn.html">Renaissant</a></li>
+                        <li><a href="../specific/hexblood.html">Sang-Maudit</a></li>
+                        <li id="nav_dropdown_item"><a href="../../index.html#ravnica-race">Ravnica</a></li>
+                        <li><a href="../specific/simic-hybrid.html">Hybride Simique</a></li>
+                        <li><a href="../specific/loxodon.html">Loxodon</a></li>
+                        <li><a href="../specific/vedalken.html">Vedalken</a></li>
+                        <li id="nav_dropdown_item"><a href="../../index.html#spelljammer-race">Spelljammer</a></li>
+                        <li><a href="../specific/autognome.html">Autognome</a></li>
+                        <li><a href="../specific/giff.html">Giff</a></li>
+                        <li><a href="../specific/hadozee.html">Hadozee</a></li>
+                        <li><a href="../specific/plasmoid.html">Plasmoid</a></li>
+                        <li><a href="../specific/thri-kreen.html">Thri-Kreen</a></li>
+                        <li id="nav_dropdown_item"><a href="../../index.html#theros-race">Theros</a></li>
+                        <li><a href="../specific/leonin.html">Leonin</a></li>
+                    </ul>
+                </li>
+                <li id="nav_item"><a href="../../index.html#backgrounds">Historiques</a>
+                    <ul id="nav_dropdown">
+                        <!--List for backgrounds-->
+                        <li><a href="../../index.html#common-bg">Historiques communs</a></li>
+                        <li><a href="../../index.html#curse-of-strahd-bg">La malédiction de Strahd</a></li>
+                        <li><a href="../../index.html#mulmaster-bg">Mulmaster</a></li>
+                        <li><a href="../../index.html#hillsfar-bg">Hillsfar</a></li>
+                        <li><a href="../../index.html#acquisitions-inc-bg">Acquisitions inc.</a></li>
+                        <li><a href="../../index.html#amonkhet-bg">Amonkhet</a></li>
+                        <li><a href="../../index.html#dragonlance-bg">Lancedragon</a></li>
+                        <li><a href="../../index.html#innistrad-bg">Innistrad</a></li>
+                        <li><a href="../../index.html#planescape-bg">Planescape</a></li>
+                        <li><a href="../../index.html#ravnica-bg">Ravnica</a></li>
+                        <li><a href="../../index.html#strixhaven-bg">Strixhaven</a></li>
+                        <li><a href="../../index.html#wildemount-bg">Wildemount</a></li>
+                        <li><a href="../../index.html#spelljammer-bg">Spelljammer</a></li>
+                        <li id="nav_dropdown_item"><a href="../../backgrounds/optional-bg/optional-bg.html">Fonctionnalités facultatives</a></li>
+                    </ul>
+                </li>
+                <li id="nav_item"><a href="../../index.html#spells">Sorts</a>
+                    <ul id="nav_dropdown">
+                        <!--List for spells-->
+                        <li id="nav_dropdown_item"><a href="../../index.html#classe-spells">Classe</a></li>
+                        <li><a href="../../spells/classe-spells/artificer-spells.html">Sorts d'Artificier</a></li>
+                        <li><a href="../../spells/classe-spells/bard-spells.html">Sorts de Barde</a></li>
+                        <li><a href="../../spells/classe-spells/cleric-spells.html">Sorts de Clerc</a></li>
+                        <li><a href="../../spells/classe-spells/druid-spells.html">Sorts de Druide</a></li>                   
+                        <li><a href="../../spells/classe-spells/sorcerer-spells.html">Sorts d'Ensorceleur</a></li>
+                        <li><a href="../../spells/classe-spells/wizard-spells.html">Sorts de Magicien</a></li>
+                        <li><a href="../../spells/classe-spells/warlock-spells.html">Sorts d'Occultiste</a></li>
+                        <li><a href="../../spells/classe-spells/paladin-spells.html">Sorts de Paladin</a></li>
+                        <li><a href="../../spells/classe-spells/ranger-spells.html">Sorts de Rôdeur</a></li>
+                        <li id="nav_dropdown_item"><a href="../../index.html#school-spells">Ecole</a></li>
+                        <li><a href="../../spells/school-spells/abjuration.html">Abjuration</a></li>
+                        <li><a href="../../spells/school-spells/conjuration.html">Conjuration</a></li>
+                        <li><a href="../../spells/school-spells/divination.html">Divination</a></li>
+                        <li><a href="../../spells/school-spells/enchantment.html">Enchantement</a></li>
+                        <li><a href="../../spells/school-spells/evocation.html">Evocation</a></li>
+                        <li><a href="../../spells/school-spells/illusion.html">Illusion</a></li>
+                        <li><a href="../../spells/school-spells/necromancy.html">Nécromancie</a></li>
+                        <li><a href="../../spells/school-spells/transmutation.html">Transmutation</a></li>
+                        <li id="nav_dropdown_item"><a href="../../spells/level-spells.html">Niveau</a></li>
+                        <li><a href="../../spells/level-spells.html#lvl0">Sorts mineur</a></li>
+                        <li><a href="../../spells/level-spells.html#lvl1">Niveau 1</a></li>
+                        <li><a href="../../spells/level-spells.html#lvl2">Niveau 2</a></li>
+                        <li><a href="../../spells/level-spells.html#lvl3">Niveau 3</a></li>
+                        <li><a href="../../spells/level-spells.html#lvl4">Niveau 4</a></li>
+                        <li><a href="../../spells/level-spells.html#lvl5">Niveau 5</a></li>
+                        <li><a href="../../spells/level-spells.html#lvl6">Niveau 6</a></li>
+                        <li><a href="../../spells/level-spells.html#lvl7">Niveau 7</a></li>
+                        <li><a href="../../spells/level-spells.html#lvl8">Niveau 8</a></li>
+                        <li><a href="../../spells/level-spells.html#lvl9">Niveau 9</a></li>
+                    </ul>
+                </li>
+                <li id="nav_item"><a href="../../index.html#items">Equipements</a>
+                    <ul id="nav_dropdown">
+                        <!--List for items-->
+                        <li><a href="../../items/weapons.html">Armes</a></li>
+                        <li><a href="../../items/firearms.html">Armes à Feu</a></li>
+                        <li><a href="../../items/armor-and-shields.html">Armures et Boucliers</a></li>
+                        <li><a href="../../items/trinkets.html">Bibelots</a></li>
+                        <li><a href="../../items/currency.html">Devises</a></li>
+                        <li><a href="../../items/adventuring-gear.html">Equipements d'Aventurier</a></li>
+                        <li><a href="../../items/siege-equipment.html">Equipements de Siège</a></li>
+                        <li><a href="../../items/explosives.html">Explosifs</a></li>
+                        <li><a href="../../items/wondrous-items.html">Objets Magique</a></li>
+                        <li><a href="../../items/tools.html">Outils</a></li>
+                        <li><a href="../../items/poisons.html">Poisons</a></li>
+                    </ul>
+                </li>
+                <li id="nav_item"><a href="../../index.html#feats">Dons</a>
+                    <ul id="nav_dropdown">
+                        <!--List for feats-->
+                        <li><a href="../../index.html#common-feat">Classiques</a></li>
+                        <li><a href="../../index.html#planescape-feat">Planescape</a></li>
+                        <li><a href="../../index.html#strixhaven-feat">Strixhaven</a></li>
+                        <li><a href="../../index.html#dragonlance-feat">Lancedragon</a></li>
+                        <li><a href="../../index.html#planeshift-feat">Changement de Plan</a></li>
+                        <li><a href="../../index.html#racial-feat">Dons Raciaux</a></li>
+                    </ul>
+                </li>
+                <li id="nav_item"><a href="">Bestaire</a>
+                    <ul id="nav_dropdown">
+                    <!--List for monsters-->
+                        <li><a href="">A venir prochainement</a></li>
+                    </ul>
+                </li>
+                <li id="nav_item"><a href="../../index.html#miscellaneous">Divers</a>
+                    <ul id="nav_dropdown">
+                        <li><a href="../../miscellaneous/unearthed-arcana/unearthed-arcana.html"></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <h2>Gnome</h2>
+        <section class="summary">
+            <h3>Sommaire</h3>
+            <ul>
+                <li><a href="#ph">Manuel du Joueur</a>
+                <ul>
+                    <li><a href="#ph-forest">Gnome des Forêts</a></li>
+                    <li><a href="#ph-rock">Gnome des Roches</a></li>
+                </ul>
+                </li>
+                <li><a href="#eepc">Compagnon du Joueur Élémentaire Maléfique</a>
+                    <ul>
+                        <li><a href="#eepc-svirfnebelin">Svirfneblin</a></li>
+                    </ul>
+                </li>
+                <li><a href="#erotlw">Eberron : Soulèvement de la Dernière Guerre</a>
+                    <ul>
+                        <li><a href="#erotlw-scribingmark">Marque de la Trace</a></li>
+                    </ul>
+                </li>
+                <li><a href="#mpmotm">Mordenkainen Présente : Les Monstres du Multivers</a>
+                    <ul>
+                        <li><a href="#mpmotm-svirfneblin">Svirfneblin</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h4 id="ph">Manuel du Joueur</h4>
+            <p class="description">Un bourdonnement constant d'activité imprègne les terriers et les quartiers où les Gnomes forment leurs communautés très unies. Des sons plus forts ponctuent le bourdonnement : un craquement d'engrenages ici, une légère explosion là, un cri de surprise ou de triomphe, et surtout des éclats de rire. Les Gnomes prennent plaisir à la vie, appréciant chaque moment d'invention, d'exploration, d'investigation, de création et de jeu.</p>
+            <p><b>Augmentation de caractéristiques. </b>Votre Intelligence augmente de 2.</p> 
+            <p><b>Âge. </b>Les Gnomes mûrissent au même rythme que les Humains, et la plupart deviennent adulte vers l'âge de 40 ans. Ils peuvent vivre jusqu'à 350 ans en moyenne, mais il n'est pas rare qu'ils atteignent 500 ans.</p>
+            <p><b>Taille. </b>Les Gnomes mesurent entre 90 centimètres et 1,20 mètre et pèsent environ 18 kilogrammes. Votre taille est petite.</p>
+            <p><b>Alignement. </b>Les Gnomes sont généralement bons. Ceux qui tendent vers la Loyauté sont des sages, des ingénieurs, des chercheurs, des érudits, des enquêteurs ou des inventeurs. Ceux qui tendent vers le Chaos sont souvent des ménestrels, des escrocs, des vagabonds ou des bijoutiers fantaisistes. Les Gnomes sont légers et même les escrocs parmi eux préfèrent les farces inoffensives aux stratagèmes vicieux.</p>
+            <p><b>Vitesse. </b>Votre vitesse de marche de base est de 7,50 mètres (25 feet).</p>
+            <p><b>Vision dans le noir. </b>Habitué à la vie sous terre, vous disposez d'une vision supérieure dans la faible luminosité et l'obscurité. Vous pouvez voir dans une faible lumière à moins de 18 mètres (60 feet) de vous comme s'il s'agissait d'une lumière vive, et dans l'obscurité comme s'il s'agissait d'une faible lumière. Vous ne pouvez pas discerner les couleurs dans l'obscurité, seulement les nuances de gris</p>
+            <p><b>Gnome rusé. </b>Vous avez un avantage sur tous les jets de sauvegardes d'Intelligence, de Sagesse et de Charisme contre la magie.</p>
+            <p><b>Langues. </b>Vous pouvez lire, parler et écrire le commun et le Gnome.</p>
+            <p><b>Sous-race. </b>En choisissant la race Gnome, choisissez également l'une des sous races suivantes.</p>
+        </section>
+        <section>
+            <h5 id="ph-forest">Gnome des Forêts</h5>    
+            <p class="description">En tant que Gnome des forêts, vous avez un talent naturel pour l'illusion et une rapidité et une furtivité inhérentes. Dans les mondes de D&D, les Gnomes des forêts sont rares et secrets. Ils se rassemblent en communautés cachées dans les forêts sylvestres, utilisant des illusions et des ruses pour se cacher des menaces ou pour masquer leur fuite s'ils sont détectés. Les Gnomes des forêts ont tendance à être amicaux avec les autres habitants des bois de bonne humeur, et ils considèrent les Elfes et les bonnes Fées comme leurs alliés les plus importants. Ces Gnomes se lient également d'amitié avec les petits animaux de la forêt et comptent sur eux pour obtenir des informations sur les menaces qui pourraient rôder sur leurs terres.</p>
+            <p class="description">Ajoutez les traits suivants aux <a href="#ph">traits standards</a>.</p>
+            <p><b>Augmentation de caractéristiques. </b>Votre Dextérité augmente de 1.</p>
+            <p><b>Illusioniste né. </b>Vous connaissez le sort mineur <a href="../../spells/illusion/0/minor-illusion.html">Illusion Mineure</a>. L'Intelligence est votre caractéristique pour ce sort.</p>
+            <p><b>Communication avec les petits animaux. </b>Par le son et les gestes, vous pouvez communiquer des idées simples avec des bêtes petites ou très petites.</p>
+        </section>
+        <section>
+            <h5 id="ph-rock">Gnome des Roches</h5>
+            <p class="description">En tant que Gnome des roches, vous possédez une inventivité et une robustesse naturelles qui dépassent celles des autres Gnomes. La plupart des Gnomes des mondes de D&D sont des Gnomes de roche, y compris les Gnomes bricoleurs du décor Dragonlance.</p>
+            <p class="description">Ajoutez les traits suivants aux <a href="#ph">traits standards</a>.</p>
+            <p><b>Augmentation de caractéristiques. </b>Votre Constitution augmente de 1.</p>
+            <p><b>Connaissance en ingénierie. </b>Chaque fois que vous effectuez un test d'Histoire lié à des objets magiques, alchimiques ou technologiques, vous pouvez ajouter deux fois votre bonus de maîtrise au lieu de tout autre bonus de maîtrise qui pourrait s'appliquer.</p>
+            <p><b>Bricoleur. </b>Vous maîtrisez les outils de bricoleur. En utilisant ces outils, vous pouvez dépenser 1 heure et 10 po de matériaux pour construire un petit appareil mécanique (CA 5, 1 pv). L'appareil cesse de fonctionner au bout de 24 heures (sauf si vous passez 1 heure à le réparer pour que l'appareil continue de fonctionner), ou lorsque vous utilisez votre action pour le démonter ; à ce moment-là, vous pourrez récupérer les matériaux utilisés pour le créer. Vous pouvez avoir jusqu'à trois appareils de ce type actifs à la fois. Lorsque vous créez un appareil, choisissez l'une des options suivantes :</p>
+            <ul>
+                <li><b>Jouet mécanique. </b> Ce jouet est un animal mécanique, un monstre ou une personne, comme une grenouille, une souris, un oiseau, un dragon ou un soldat. Lorsqu'il est placé sur le sol, le jouet se déplace de 1,50 mètre (5 feet) sur le sol à chacun de vos tours dans une direction aléatoire. Il émet des bruits adaptés à la créature qu'il représente.</li>
+                <li><b>Allume-Feu. </b>L'appareil produit une flamme miniature que vous pouvez utiliser pour allumer une bougie, une torche ou un feu de camp. L'utilisation de l'appareil nécessite votre action.</li>
+                <li><b>Boîte à musique. </b>Une fois ouverte, cette boîte à musique joue une seule chanson à un volume modéré. La boîte s'arrête lorsqu'elle atteint la fin de la chanson ou lorsqu'elle est fermée.</li>
+                <li>À la discrétion de votre MD, vous pouvez créer d'autres objets avec des effets de puissance similaire à ceux-ci. Le sort mineur <a href="../../spells/transmutation/0/prestidigitation.html">Prestidigitation</a> est une bonne base de référence pour de tels effets.</li>
+            </ul>
+        </section>
+        <section>
+            <h4 id="eepc">Compagnon du Joueur Élémentaire Maléfique</h4>
+            <h5 id="eepc-svirfnebelin">Svirfneblin</h5>
+            <p class="description">Les Gnomes des forêts et les Gnomes des roches sont les Gnomes les plus couramment rencontrés sur les terres du monde de surface. Il existe une autre sous-race de Gnomes rarement vue par les habitants de la surface : les Gnomes des profondeurs, également connus sous le nom de svirfneblin. Gardés et méfiants envers les étrangers, les svirfnebelins sont rusés et taciturnes, mais peuvent être tout aussi généreux, loyaux et compatissants que leurs cousins ​​de la surface.</p>
+            <p class="description">Ajoutez les traits suivants aux <a href="#ph">traits standards</a>.</p>
+            <p><b>Augmentation de caractéristiques. </b>Votre Dextérité augmente de 1.</p>
+            <p><b>Vision dans le noir supérieure. </b>Votre vision dans le noir a un rayon de 36 mètres (120 feet).</p>
+            <p><b>Camouflage de pierre. </b>Vous avez un avantage aux tests de Discrétion pour vous cacher dans un terrain rocheux.</p>  
+        </section>
+        <section>
+            <h4 id="erotlw">Eberron : Soulèvement de la Dernière Guerre</h4>
+            <h5 id="erotlw-scribingmark">Marque de la Trace</h5>
+            <p class="description">Ajoutez les traits suivants aux <a href="#ph">traits standards</a>.</p>
+            <p><b>Augmentation de caractéristiques. </b>Votre Charisme augmente de 1.</p>
+            <p><b>Scribe doué. </b>Chaque fois que vous effectuez un test d'Histoire ou de compétence impliquant des fournitures de calligraphe, vous pouvez lancer 1d4 et ajouter le nombre obtenu au test de compétence.</p>
+            <p><b>Perspicacité du scribe. </b>Vous connaissez le sort mienur <a href="../../spells/transmutation/0/magic-stone.html">Message</a>. Vous pouvez également lancer le sort <a href="../../spells/divination/1/comprehend-languages.html">Compréhension des Langues</a> avec ce trait. À partir du niveau 3, vous pouvez également lancer le sort <a href="../../spells/illusion/2/magic-mouth.html">Bouche Magique</a> avec. Une fois que vous avez lancé l'un ou l'autre sort avec ce trait, vous ne pouvez plus lancer ce sort tant que vous n'avez pas terminé un repos long. L'Intelligence est votre caractéristique pour ces sorts lorsque vous les lancez avec ce trait.</p>
+            <p><b>Sort de la marque de la trace. </b>Si vous disposez d'une classe de lanceur de sorts, les sorts du tableau suivant sont ajoutés à la liste des sorts de votre classe.</p>
+            <input type="button" value="Sorts de la Marque de la Trace &#11163;" onclick="masquerDiv('scribingmark');" />
+                <div id="scribingmark">
+                    <table>
+                <tr>
+                    <th>Niveau de sort</th>
+                    <th>Sorts</th>
+                </tr>
+                <tr>
+                    <td>1er</td>
+                    <td><a href="../../spells/divination/1/comprehend-languages.html">Compréhension des Langues</a> , <a href="../../spells/illusion/1/illusory-script.html">Texte Illusoire</a></td>
+                </tr>
+                <tr>
+                    <td>2ème</td>
+                    <td><a href="../../spells/enchantment/2/animal-messenger.html">Messager Animal</a> , <a href="../../spells/illusion/2/silence.html">Silence</a></td>
+                </tr>
+                <tr>
+                    <td>3ème</td>
+                    <td><a href="../../spells/evocation/3/sending.html">Communication à Distance</a> , <a href="../../spells/divination/3/tongues.html">Don des Langues</a></td>
+                </tr>
+                <tr>
+                    <td>4ème</td>
+                    <td><a href="../../spells/divination/4/arcane-eye.html">Oeil Magique</a> , <a href="../../spells/divination/4/divination.html">Divination</a></td>
+                </tr>
+                <tr>
+                    <td>5ème</td>
+                    <td><a href="../../spells/illusion/5/dream.html">Songe</a></td>
+                </tr>
+                    </table>
+                </div>
+        </section>
+        <section>
+            <h4 id="mpmotm">Mordenkainen Présente : Les Monstres du Multivers</h4>
+            <h5 id="mpmotm-svirfneblin">Svrifneblin</h5>
+            <p class="description">Les Gnomes des profondeurs, ou Svirfnebelins, sont originaires de l'Outreterre et sont imprégnés de la magie de ce royaume souterrain. Ils peuvent se camoufler de manière surnaturelle et leur magie de Svirfnebelin les rend difficiles à localiser. Ces capacités leur ont permis de survivre pendant des générations parmi les périls de l'Outreterre.</p>
+            <p class="description">Utilisez les <a href="#ph">traits standards</a> hormis l'Augmentation de carctéristiques, la Vitesse et les Langues, et ajoutez les traits suivants.</p>
+            <p><b>Augmentation de caractéristiques. </b>Augmentez une caractéristique de 2 et une autre de 1, ou augmentez trois caractéristiques différentes de 1.</p>
+            <p><b>Vitesse. </b>Votre vitesse de marche de base est de 9 mètres (30 feet).</p>
+            <p><b>Vision dans le noir supérieure. </b>Votre vision dans le noir a un rayon de 36 mètres (120 feet).</p>
+            <p><b>Cadeau Svirfneblin. </b>À partir du niveau 3, vous pouvez lancer le sort <a href="../../spells/illusion/1/disguise-self.html">Déguisement</a>. À partir du niveau 5, vous pouvez également lancer le sort <a href="../../spells/abjuration/3/nondetection.html">Anti-Détéction</a>. Les sorts lancés avec ce trait ne nécessite pas de composant matériel. Une fois que vous avez lancé l'un de ces sorts avec ce trait, vous ne pouvez plus lancer ce sort avec celui-ci tant que vous n'avez pas terminé un repos long. L'Intelligence, la Sagesse ou le Charisme sont votre caractéristique pour ces sorts lorsque vous les lancez avec ce trait (à choisir lorsque vous sélectionnez cette race).</p>
+            <p><b>Camouflage Svirfneblin. </b>Lorsque vous effectuez un test de Furtivité, vous pouvez effectuer le test avec avantage. Vous pouvez utiliser ce trait un nombre de fois égal à votre bonus de maîtrise, et vous récupérez toutes les utilisations dépensées lorsque vous terminez un repos long.</p>
+            <p><b>Langues. </b>Vous pouvez parler, lire et écrire le commun et une autre langue que vous et votre MD considérez comme appropriée.</p>
+        </section>
+    </main>
+    <footer>
+        <p>Toutes les informations présentées ici sont issues du site anglophone <a href="http://dnd5e.wikidot.com/">DND5e Wikidot.com</a></p>
+        <p>Sauf indication contraire, le contenu de cette page est sous licence <a href="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0</a></p>
+    </footer>
+    <script src="../../assets/javascript/race.js"></script>
+</body>
+</html>
