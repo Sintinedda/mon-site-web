@@ -1,7 +1,136 @@
 *{
     margin: 0;
     padding: 0;
-    border: 1px solid red;
     font-family: 'Lato', sans-serif;
     font-size: 1rem;
+    box-sizing: border-box;
+    width: auto;
+    background-color: black;
+    word-spacing: 1px;
+}
+body{
+    margin: 0 50px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+h2{
+    padding: 0 0 20px 0;
+    text-align: center;
+    font-size: 2rem;
+    color: gold;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+section{
+    padding: 30px 0;
+}
+#classes,
+#classes h2,
+#classes table,
+#classes td,
+#classes th,
+#classes td a,
+#classes th a,
+#backgrounds,
+#backgrounds h2,
+#backgrounds h3,
+#backgrounds h4,
+#backgrounds li,
+#backgrounds a,
+.background,
+#items,
+#items h2,
+#items li,
+#items a,
+.item{
+    background-color: #242423;
+}
+h3,
+h4,
+section ul{
+    padding: 0 10px;
+}
+table{
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+#classes td,
+#classes th{
+    border-bottom: 1px solid black;
+}
+td,
+th{
+    padding: 10px 0;
+}
+
+h3,
+h4{
+    padding: 20px;
+}
+h4{
+    color: rgb(132, 132, 255);
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+a.visible-link{
+    color: chartreuse;
+}
+.race,
+.background,
+.item,
+.feat{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+.race > li{
+    flex-basis: 9%;
+    text-align: center;
+}
+img{
+    width: 6rem;
+}
+.race > li,
+.background > li,
+.item > li,
+.feat > li{
+    margin-left: 15px;
+    padding: 10px;
+    list-style-type: disc;
+}
+.background > li{
+    flex-basis: 10%;
+}
+#spells td,
+#spells th{
+    border-bottom: 1px solid #242423;
+}
+#spells th{
+    color: white;
+}
+.item > li{
+    flex-basis: 20%;
+}
+.feat{
+    color: #242423;
+}
+.feat > li{
+    flex-basis: 10%;
+}
+h3{
+    font-size: larger;
+    color: brown;
+    font-weight: bold;
+}
+h3,
+h4{
+    
+    padding-top: 5rem;
+    margin-top: -4rem;
 }

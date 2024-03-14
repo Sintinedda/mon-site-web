@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drakéïde, DND 5ème édition</title>
+    <link rel="stylesheet" href="../../assets/css/race-style.css">
+    <link rel="stylesheet" href="../../assets/css/header-style.css">
+    <link rel="stylesheet" href="../../assets/css/footer-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>L'Arcanium de Donjons & Dragons</h1>
+    </header>
+    <main>
+        <nav>
+            <ul id="nav">
+                <li id="nav_item"><a href="../../index.html#classes">Classes</a>
+                    <ul id="nav_dropdown">
+                        <!--List for classes-->
+                        <li><a href="../../classes/artificer.html">Artificier</a></li>
+                        <li><a href="../../classes/barbarian.html">Barbare</a></li>
+                        <li><a href="../../classes/bard.html">Barde</a></li>
+                        <li><a href="../../classes/cleric.html">Clerc</a></li>
+                        <li><a href="../../classes/druid.html">Druide</a></li>
+                        <li><a href="../../classes/sorcerer.html">Ensorceleur</a></li>
+                        <li><a href="../../classes/fighter.html">Guerrier</a></li>
+                        <li><a href="../../classes/wizard.html">Magicien</a></li>
+                        <li><a href="../../classes/monk.html">Moine</a></li>
+                        <li><a href="../../classes/warlock.html">Occultiste</a></li>
+                        <li><a href="../../classes/paladin.html">Paladin</a></li>
+                        <li><a href="../../classes/ranger.html">Rôdeur</a></li>
+                        <li><a href="../../classes/rogue.html">Roublard</a></li>
+                    </ul>
+                </li>
+                <li id="nav_item"><a href="../../index.html#races">Races</a>
+                    <ul id="nav_dropdown">
+                        <!--List for races-->
+                        <li id="nav_dropdown_item"><a href="../../index.html#basic-race">Basique</a></li>
+                        <li><a href="./half-elf.html">Demi-Elfe</a></li>
+                        <li><a href="./half-orc.html">Demi-Orc</a></li>
+                        <li><a href="./dragonborn.html">Drakéide</a></li>
+                        <li><a href="./elf.html">Elfe</a></li>
+                        <li><a href="./gnome.html">Gnome</a></li>
+                        <li><a href="./halfling.html">Halfelin</a></li>
+                        <li><a href="./human.html">Humain</a></li>
+                        <li><a href="./dwarf.html">Nain</a></li>
+                        <li><a href="./tiefling.html">Tieffelin</a></li>
+                        <li id="nav_dropdown_item"><a href="../../index.html#exotic-race">Exotique</a></li>
+                        <li><a href="../exotic/aarakocra.html">Aarakocra</a></li>
+                        <li><a href="../exotic/aasimar.html">Aasimar</a></li>
+                        <li><a href="../exotic/changling.html">Changelin</a></li>
+                        <li><a href="../exotic/fey.html">Fée</a></li>
+                        <li><a href="../exotic/firbolg.html">Firbolg</a></li>
+                        <li><a href="../exotic/genasi.html">Genasi</a></li>
+                        <li><a href="../exotic/gith.html">Gith</a></li>
+                        <li><a href="../exotic/goliath.html">Goliath</a></li>
+                        <li><a href="../exotic/harengon.html">Harengon</a></li>
+                        <li><a href="../exotic/kenku.html">Kenku</a></li>
+                        <li><a href="../exotic/locathah.html">Locathah</a></li>
+                        <li><a href="../exotic/owlin.html">Owlin</a></li>
+                        <li><a href="../exotic/satyr.html">Satyre</a></li>
+                        <li><a href="../exotic/tabaxi.html">Tabaxi</a></li>
+                        <li><a href="../exotic/tortle.html">Tortle</a></li>
+                        <li><a href="../exotic/triton.html">Triton</a></li>
+                        <li><a href="../exotic/verdan.html">Verdan</a></li>
+                        <li id="nav_dropdown_item"><a href="../../index.html#monstrous-race">Monstrueuse</a></li>
+                        <li><a href="../monstrous/centaur.html">Centaure</a></li>
+                        <li><a href="../monstrous/bugbear.html">Epouvantail</a></li>
+                        <li><a href="../monstrous/goblin.html">Gobelin</a></li>
+                        <li><a href="../monstrous/hobgoblin.html">Gobelours</a></li>
+                        <li><a href="../monstrous/grung.html">Grung</a></li>
+                        <li><a href="../monstrous/kobold.html">Kobold</a></li>
+                        <li><a href="../monstrous/minotaur.html">Minotaure</a></li>
+                        <li><a href="../monstrous/shifter.html">Métamorphe</a></li>
+                        <li><a href="../monstrous/orc.html">Orc</a></li>
+                        <li><a href="../monstrous/lizardfolk.html">Peuple Lézard</a></li>
+                        <li><a href="../monstrous/yuan-ti.html">Yuan-Ti</a></li>
+                        <li id="nav_dropdown_item"><a href="../../index.html#dragonlance-race">Lancedragon</a></li>
+                        <li><a href="../specific/kender.html">Kender</a></li>
+                        <li id="nav_dropdown_item"><a href="../../index.html#eberron-race">Eberron</a></li>
+                        <li><a href="../specific/warforged.html">Forgelin</a></li>
+                        <li><a href="../specific/kalashtar.html">Kalashtar</a></li>
+                        <li id="nav_dropdown_item"><a href="../../index.html#planeshift-race">Changement de Plan</a></li>
+                        <li><a href="../specific/aven.html">Aven</a></li>
+                        <li><a href="../specific/aetherborn.html">Ethéré</a></li>
+                        <li><a href="../specific/khenra.html">Khenra</ali>
+                        <li><a href="../specific/kor.html">Kor</a></li>
+                        <li><a href="../specific/naga.html">Naga</a></li>
+                        <li><a href="../specific/merfolk.html">Peuple de la Mer</a></li>
+                        <li><a href="../specific/siren.html">Sirène</a></li>
+                        <li><a href="../specific/vampire.html">Vampire</a></li>
+                        <li id="nav_dropdown_item"><a href="../../index.html#ravenloft-race">Ravenloft</a></li>
+                        <li><a href="../specific/dhampir.html">Dhampir</a></li>
+                        <li><a href="../specific/reborn.html">Renaissant</a></li>
+                        <li><a href="../specific/hexblood.html">Sang-Maudit</a></li>
+                        <li id="nav_dropdown_item"><a href="../../index.html#ravnica-race">Ravnica</a></li>
+                        <li><a href="../specific/simic-hybrid.html">Hybride Simique</a></li>
+                        <li><a href="../specific/loxodon.html">Loxodon</a></li>
+                        <li><a href="../specific/vedalken.html">Vedalken</a></li>
+                        <li id="nav_dropdown_item"><a href="../../index.html#spelljammer-race">Spelljammer</a></li>
+                        <li><a href="../specific/autognome.html">Autognome</a></li>
+                        <li><a href="../specific/giff.html">Giff</a></li>
+                        <li><a href="../specific/hadozee.html">Hadozee</a></li>
+                        <li><a href="../specific/plasmoid.html">Plasmoid</a></li>
+                        <li><a href="../specific/thri-kreen.html">Thri-Kreen</a></li>
+                        <li id="nav_dropdown_item"><a href="../../index.html#theros-race">Theros</a></li>
+                        <li><a href="../specific/leonin.html">Leonin</a></li>
+                    </ul>
+                </li>
+                <li id="nav_item"><a href="../../index.html#backgrounds">Historiques</a>
+                    <ul id="nav_dropdown">
+                        <!--List for backgrounds-->
+                        <li><a href="../../index.html#common-bg">Historiques communs</a></li>
+                        <li><a href="../../index.html#curse-of-strahd-bg">La malédiction de Strahd</a></li>
+                        <li><a href="../../index.html#mulmaster-bg">Mulmaster</a></li>
+                        <li><a href="../../index.html#hillsfar-bg">Hillsfar</a></li>
+                        <li><a href="../../index.html#acquisitions-inc-bg">Acquisitions inc.</a></li>
+                        <li><a href="../../index.html#amonkhet-bg">Amonkhet</a></li>
+                        <li><a href="../../index.html#dragonlance-bg">Lancedragon</a></li>
+                        <li><a href="../../index.html#innistrad-bg">Innistrad</a></li>
+                        <li><a href="../../index.html#planescape-bg">Planescape</a></li>
+                        <li><a href="../../index.html#ravnica-bg">Ravnica</a></li>
+                        <li><a href="../../index.html#strixhaven-bg">Strixhaven</a></li>
+                        <li><a href="../../index.html#wildemount-bg">Wildemount</a></li>
+                        <li><a href="../../index.html#spelljammer-bg">Spelljammer</a></li>
+                        <li id="nav_dropdown_item"><a href="../../backgrounds/optional-bg/optional-bg.html">Fonctionnalités facultatives</a></li>
+                    </ul>
+                </li>
+                <li id="nav_item"><a href="../../index.html#spells">Sorts</a>
+                    <ul id="nav_dropdown">
+                        <!--List for spells-->
+                        <li id="nav_dropdown_item"><a href="../../index.html#classe-spells">Classe</a></li>
+                        <li><a href="../../spells/classe-spells/artificer-spells.html">Sorts d'Artificier</a></li>
+                        <li><a href="../../spells/classe-spells/bard-spells.html">Sorts de Barde</a></li>
+                        <li><a href="../../spells/classe-spells/cleric-spells.html">Sorts de Clerc</a></li>
+                        <li><a href="../../spells/classe-spells/druid-spells.html">Sorts de Druide</a></li>                   
+                        <li><a href="../../spells/classe-spells/sorcerer-spells.html">Sorts d'Ensorceleur</a></li>
+                        <li><a href="../../spells/classe-spells/wizard-spells.html">Sorts de Magicien</a></li>
+                        <li><a href="../../spells/classe-spells/warlock-spells.html">Sorts d'Occultiste</a></li>
+                        <li><a href="../../spells/classe-spells/paladin-spells.html">Sorts de Paladin</a></li>
+                        <li><a href="../../spells/classe-spells/ranger-spells.html">Sorts de Rôdeur</a></li>
+                        <li id="nav_dropdown_item"><a href="../../index.html#school-spells">Ecole</a></li>
+                        <li><a href="../../spells/school-spells/abjuration.html">Abjuration</a></li>
+                        <li><a href="../../spells/school-spells/conjuration.html">Conjuration</a></li>
+                        <li><a href="../../spells/school-spells/divination.html">Divination</a></li>
+                        <li><a href="../../spells/school-spells/enchantment.html">Enchantement</a></li>
+                        <li><a href="../../spells/school-spells/evocation.html">Evocation</a></li>
+                        <li><a href="../../spells/school-spells/illusion.html">Illusion</a></li>
+                        <li><a href="../../spells/school-spells/necromancy.html">Nécromancie</a></li>
+                        <li><a href="../../spells/school-spells/transmutation.html">Transmutation</a></li>
+                        <li id="nav_dropdown_item"><a href="../../spells/level-spells.html">Niveau</a></li>
+                        <li><a href="../../spells/level-spells.html#lvl0">Sorts mineur</a></li>
+                        <li><a href="../../spells/level-spells.html#lvl1">Niveau 1</a></li>
+                        <li><a href="../../spells/level-spells.html#lvl2">Niveau 2</a></li>
+                        <li><a href="../../spells/level-spells.html#lvl3">Niveau 3</a></li>
+                        <li><a href="../../spells/level-spells.html#lvl4">Niveau 4</a></li>
+                        <li><a href="../../spells/level-spells.html#lvl5">Niveau 5</a></li>
+                        <li><a href="../../spells/level-spells.html#lvl6">Niveau 6</a></li>
+                        <li><a href="../../spells/level-spells.html#lvl7">Niveau 7</a></li>
+                        <li><a href="../../spells/level-spells.html#lvl8">Niveau 8</a></li>
+                        <li><a href="../../spells/level-spells.html#lvl9">Niveau 9</a></li>
+                    </ul>
+                </li>
+                <li id="nav_item"><a href="../../index.html#items">Equipements</a>
+                    <ul id="nav_dropdown">
+                        <!--List for items-->
+                        <li><a href="../../items/weapons.html">Armes</a></li>
+                        <li><a href="../../items/firearms.html">Armes à Feu</a></li>
+                        <li><a href="../../items/armor-and-shields.html">Armures et Boucliers</a></li>
+                        <li><a href="../../items/trinkets.html">Bibelots</a></li>
+                        <li><a href="../../items/currency.html">Devises</a></li>
+                        <li><a href="../../items/adventuring-gear.html">Equipements d'Aventurier</a></li>
+                        <li><a href="../../items/siege-equipment.html">Equipements de Siège</a></li>
+                        <li><a href="../../items/explosives.html">Explosifs</a></li>
+                        <li><a href="../../items/wondrous-items.html">Objets Magique</a></li>
+                        <li><a href="../../items/tools.html">Outils</a></li>
+                        <li><a href="../../items/poisons.html">Poisons</a></li>
+                    </ul>
+                </li>
+                <li id="nav_item"><a href="../../index.html#feats">Dons</a>
+                    <ul id="nav_dropdown">
+                        <!--List for feats-->
+                        <li><a href="../../index.html#common-feat">Classiques</a></li>
+                        <li><a href="../../index.html#planescape-feat">Planescape</a></li>
+                        <li><a href="../../index.html#strixhaven-feat">Strixhaven</a></li>
+                        <li><a href="../../index.html#dragonlance-feat">Lancedragon</a></li>
+                        <li><a href="../../index.html#planeshift-feat">Changement de Plan</a></li>
+                        <li><a href="../../index.html#racial-feat">Dons Raciaux</a></li>
+                    </ul>
+                </li>
+                <li id="nav_item"><a href="">Bestaire</a>
+                    <ul id="nav_dropdown">
+                    <!--List for monsters-->
+                        <li><a href="">A venir prochainement</a></li>
+                    </ul>
+                </li>
+                <li id="nav_item"><a href="../../index.html#miscellaneous">Divers</a>
+                    <ul id="nav_dropdown">
+                        <li><a href="../../miscellaneous/unearthed-arcana/unearthed-arcana.html"></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <h2>Drakéïde</h2>
+        <section class="summary">
+            <h3>Sommaire</h3>
+            <ul>
+                <li><a href="#ph">Manuel du Joueur</a></li>
+                <li><a href="#egtw">Guide de l'Explorateur de Wildemount</a>
+                    <ul>
+                        <li><a href="#egtw-draconblood">Draconblood</a></li>
+                        <li><a href="#egtw-ravenite">Ravenite</a></li>
+                    </ul>
+                </li>
+                <li><a href="#ftod">Le Trésor des Dragons de Fizban</a>
+                    <ul>
+                        <li><a href="#ftod-chromatic">Chromatique</a></li>
+                        <li><a href="#ftod-metallic">Métallique</a></li>
+                        <li><a href="#ftod-gems">Gemme</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h4 id="ph">Manuel du Joueur</h4>
+            <p class="description">Nés de dragons, comme leur nom l'indique, les Drakéïdes marchent fièrement à travers un monde qui les accueille avec une effrayante incompréhension. Façonnés par des dieux draconiques ou par les dragons eux-mêmes, les Drakéïdes sont nés à l'origine d'œufs de dragon en tant que race unique, combinant les meilleurs attributs des dragons et des humanoïdes. Certains Drakéïdes sont de fidèles serviteurs de vrais dragons, d'autres forment les rangs des soldats dans les grandes guerres, et d'autres encore se retrouvent à la dérive, sans vocation claire dans la vie.</p>
+            <p><b>Augmentation de caractéristiques. </b>Votre Force augmente de 2 et votre Charisme augmente de 1.</p> 
+            <p><b>Âge. </b>Les jeunes Drakéïdes grandissent rapidement. Ils marchent quelques heures après l'éclosion, atteignant la taille et le développement d'un enfant Humain de 10 ans à seulement 3 ans et ils atteignent l'âge adulte à 15 ans. Ils vivent environ 80 ans.</p>
+            <p><b>Taille. </b>Les Drakéïdes sont plus grands et plus lourds que les humains, mesurant bien plus de 1,80 mètre et pesant en moyenne près de 110 kilogrammes. Votre taille est moyenne.</p>
+            <p><b>Alignement. </b>Les Drakéïdes tendent vers les extrêmes, faisant un choix conscient pour un côté ou l'autre entre le Bien et le Mal (représentés respectivement par Bahamut et Tiamat). Plus du côté de Bahamut que de Tiamat (dont les adeptes non-dragons sont pour la plupart des kobolds), mais le méchant Drakéide peut en effet être assez terrible. Quelques rares personnes choisissent de se consacrer à des divinités dragons inférieures, telles que Chronepsis (Neutre), et encore moins choisissent d'adorer Io, le Dragon Novénaire, qui est tous les alignements à la fois.</p>
+            <p><b>Vitesse. </b>Votre vitesse de marche de base est de 9 mètres (60 feet).</p>
+            <p><b>Ascendance draconique. </b>Vous êtes apparenté de loin à un type particulier de dragon. Choisissez un type de dragon dans la liste ci-dessous ; cela détermine les dégâts et la zone de votre souffle, ainsi que le type de résistance que vous gagnez.</p>
+            <input type="button" value="Ascendance Draconique &#11163;" onclick="masquerDiv('draconic');" /> 
+                <div id="draconic">   
+                    <table class="dragonborn-3">
+                        <tr>
+                            <th>Couleur de dragon</th>
+                            <th>Type de dégâts</th>
+                            <th>Souffle</th>
+                        </tr>
+                        <tr>
+                            <td>Noir</td>
+                            <td>Acide</td>
+                            <td>Ligne de 1,5 mètre (5 feet) de large par 9 mètres de long (30 feet). (Sauvegarde de Dextérité)</td>
+                        </tr>
+                        <tr>
+                            <td>Bleu</td>
+                            <td>Foudre</td>
+                            <td>Ligne de 1,5 mètre (5 feet) de large par 9 mètres de long (30 feet). (Sauvegarde de Dextérité)</td>
+                        </tr>
+                        <tr>
+                            <td>Laiton</td>
+                            <td>Feu</td>
+                            <td>Ligne de 1,5 mètre (5 feet) de large par 9 mètres de long (30 feet). (Sauvegarde de Dextérité)</td>
+                        </tr>
+                        <tr>
+                            <td>Bronze</td>
+                            <td>Foudre</td>
+                            <td>Ligne de 1,5 mètre (5 feet) de large par 9 mètres de long (30 feet). (Sauvegarde de Dextérité)</td>
+                        </tr>
+                        <tr>
+                            <td>Cuivre</td>
+                            <td>Acide</td>
+                            <td>Ligne de 1,5 mètre (5 feet) de large par 9 mètres de long (30 feet). (Sauvegarde de Dextérité)</td>
+                        </tr>
+                        <tr>
+                            <td>Or</td>
+                            <td>Feu</td>
+                            <td>Cône de 4,50 mètres (15 feet). (Sauvegarde de Dextérité)</td>
+                        </tr>
+                        <tr>
+                            <td>Vert</td>
+                            <td>Poison</td>
+                            <td>Cône de 4,50 mètres (15 feet). (Sauvegarde de Constitution)</td>
+                        </tr>
+                        <tr>
+                            <td>Rouge</td>
+                            <td>Feu</td>
+                            <td>Cône de 4,50 mètres (15 feet). (Sauvegarde de Dextérité)</td>
+                        </tr>
+                        <tr>
+                            <td>Argent</td>
+                            <td>Froid</td>
+                            <td>Cône de 4,50 mètres (15 feet). (Sauvegarde de Constitution)</td>
+                        </tr>
+                        <tr>
+                            <td>Blanc</td>
+                            <td>Froid</td>
+                            <td>Cône de 4,50 mètres (15 feet). (Sauvegarde de Constitution)</td>
+                        </tr>
+                    </table>
+                </div>
+            <p><b>Souffle. </b>Vous pouvez utiliser votre action pour expirer un souffle destructeur. Il inflige des dégâts dans une zone en fonction de votre ascendance. Lorsque vous utilisez votre souffle, toutes les créatures présentes dans la zone doivent effectuer un jet de sauvegarde dont le type est déterminé par votre ascendance. Le DD de ce jet de sauvegarde est de 8 + votre modificateur de Constitution + votre bonus de maîtrise. Une créature subit 2d6 dégâts en cas d'échec, et la moitié de ces dégâts en cas de réussite. Les dégâts augmentent à 3d6 au niveau 6, 4d6 au niveau 11 et 5d6 au niveau 16. Après avoir utilisé votre souffle, vous ne pouvez plus l'utiliser avant d'avoir effectué un repos court ou long.</p>
+            <p><b>Résistance aux dégâts. </b>Vous avez une résistance aux dégâts associés à votre ascendance.</p>
+            <p><b>Langues. </b>Vous pouvez lire, parler et écrire le commun et le draconique.</p>
+        </section>
+        <section>
+            <h4 id="egtw">Guide de l'Explorateur de Wildemount</h4>
+            <h5 id="egtw-draconblood">Draconblood</h5>
+                <p class="description">Les Draconbloods possèdent de longues queues et un talent pour la manipulation sociale. Ils se souviennent de l'époque où ils étaient de puissants conquérants.</p>
+                <p class="description">Utilisez les <a href="#ph">traits standards</a>, les traits suivants remplaçant les traits d'Augmentation de caractéristiques et de Résistance aux dégâts.</p>
+                <p><b>Augmentation de caractéristiques. </b>Votre Intelligence augmente de 2 et votre Charisme augmente de 1.</p>
+                <p><b>Vision dans le noir. </b>Vous disposez d'une vision supérieure dans des conditions de faible luminosité et d'obscurité. Vous pouvez voir dans une lumière faible à moins de 18 mètres (60 feet) de vous comme s'il s'agissait d'une lumière vive, et dans l'obscurité comme s'il s'agissait d'une lumière faible. Vous ne pouvez pas discerner les couleurs dans l'obscurité, seulement les nuances de gris.</p>
+                <p><b>Présence puissante. </b>Lorsque vous effectuez un test d'Intimidation ou de Persuasion, vous pouvez le faire avec avantage une fois par repos long.</p>
+        </section>
+        <section>
+            <h5 id="egtw-ravenite">Ravenite</h5>
+                <p class="description">Les Ravenites n'ont pas de queue et un physique robuste. Ils se souviennent de l'époque où ils étaient esclaves des Draconbloods, ainsi que du jour où ils renversèrent leurs maîtres.</p>
+                <p class="description">Utilisez les <a href="#ph">traits standards</a>, les traits suivants remplaçant les traits d'Augmentation de caractéristiques et de Résistance aux dégâts.</p>
+                <p><b>Augmentation de caractéristiques. </b>Votre Force augmente de 2 et votre Constitution augmente de 1.</p>
+                <p><b>Vision dans le noir. </b>Vous disposez d'une vision supérieure dans des conditions de faible luminosité et d'obscurité. Vous pouvez voir dans une lumière faible à moins de 18 mètres (60 feet) de vous comme s'il s'agissait d'une lumière vive, et dans l'obscurité comme s'il s'agissait d'une lumière faible. Vous ne pouvez pas discerner les couleurs dans l'obscurité, seulement les nuances de gris.</p>
+                <p><b>Assaut vengeur. </b>Lorsque vous subissez des dégâts d'une créature à portée d'une arme que vous utilisez, vous pouvez utiliser votre réaction pour lancer une attaque contre cette créature. Vous pouvez le faire une fois par repos court ou long.</p>
+        </section>
+        <section>
+            <h4 id="ftod">Le Trésor des Dragons de Fizban</h4>
+            <h5 id="ftod-chromatic">Chromatique</h5>
+                <p class="description">Les Drakéïdes ayant une ascendance chromatique revendiquent le pouvoir élémentaire brut des dragons chromatiques. Les couleurs vibrantes des dragons noirs, bleus, verts, rouges et blancs brillent dans la peau écailleuse de ces Drakéïdes et dans l'énergie mortelle de leurs souffles. Ils sont la fureur élémentaire brute du volcan, des vents arctiques mordants et des orages déchaînés, ainsi que le murmure subtil des marais et de la forêt, toxiques et corrosifs.</p>
+                <p class="description">Remplacez les <a href="#ph">traits standards</a> par les suivants à l'exception de l'Âge, de la Taille, de l'Alignement et de la Vitesse.</p>
+                <p><b>Augmentation de caractéristiques. </b>Augmentez une compétence de 2 et une autre compétence de 1, ou augmentez trois compétences différentes de 1.</p>
+                <p><b>Ascendance chromatique. </b>Vous faites remonter votre ascendance à un dragon chromatique, vous accordant une affinité magique spéciale. Choisissez un type de dragon dans le tableau d'ascendance chromatique. Cela détermine le type de dégâts pour vos autres traits, comme indiqué dans le tableau.</p>
+                <input type="button" value="Ascendance Chromatique &#11163;" onclick="masquerDiv('chromatic');" />
+                    <div id="chromatic">
+                        <table class="dragonborn-2">
+                            <tr>
+                                <th>Dragon</th>
+                                <th>Type de dégâts</th>
+                            </tr>
+                            <tr>
+                                <td>Noir</td>
+                                <td>Acide</td>
+                            </tr>
+                            <tr>
+                                <td>Bleu</td>
+                                <td>Foudre</td>
+                            </tr>
+                            <tr>
+                                <td>Vert</td>
+                                <td>Poison</td>
+                            </tr>
+                            <tr>
+                                <td>Rouge</td>
+                                <td>Feu</td>
+                            </tr>
+                            <tr>
+                                <td>Blanc</td>
+                                <td>Froid</td>
+                            </tr>
+                        </table>
+                    </div>
+                <p><b>Souffle. </b>Lorsque vous effectuez l'action Attaque à votre tour, vous pouvez remplacer l'une de vos attaques par un souffle d'énergie magique sur une ligne de 1,50 mètre (5 feet) de large et de 9 mètres (30 feet) de long. Chaque créature dans cette zone doit effectuer un jet de sauvegarde de Dextérité (DD = 8 + votre modificateur de Constitution + votre bonus de maîtrise). En cas d'échec, la créature subit 1d10 dégâts du type associé à votre ascendance chromatique. En cas de réussite, les dégâts sont réduits de moitié. Ces dégâts augmentent de 1d10 lorsque vous atteignez le niveau 5 (2d10), le niveau 11 (3d10) et le niveau 17 (4d10). Vous pouvez utiliser votre Souffle un nombre de fois égal à votre bonus de maîtrise, et vous récupérez toutes les utilisations dépensées lorsque vous terminez un repos long.</p>
+                <p><b>Résistance chromatique. </b>Vous avez une résistance au type de dégâts de votre ascendance chromatique.</p>
+                <p><b>Protection chromatique. </b>À partir du niveau 5, par une action, vous pouvez canaliser votre énergie draconique pour vous protéger. Pendant 1 minute, vous devenez immunisé contre le type de dégâts associé à votre ascendance chromatique. Une fois que vous utilisez ce trait, vous ne pouvez plus le faire avant d'avoir terminé un repos long.</p>
+                <p><b>Langues. </b>Vous pouvez parler, lire et écrire le commun et une autre langue que vous et votre MD considérez comme appropriée pour le personnage.</p>
+        </section>
+        <section>
+            <h5 id="ftod-metallic">Métallique</h5>
+                <p class="description">Les Drakéïdes d'ascendance métallique revendiquent la ténacité des dragons métalliques (laiton, bronze, cuivre, or et argent) dont les teintes brillent dans leurs écailles. Ils sont le feu du foyer et de la forge, le froid de l'air des hautes montagnes, l'étincelle de l'inspiration et le contact récurant de l'acide qui purifie.</p>
+                <p class="description">Remplacez les <a href="#ph">traits standards</a> par les suivants à l'exception de l'Âge, de la Taille, de l'Alignement et de la Vitesse.</p>
+                <p><b>Augmentation de caractéristiques. </b>Augmentez une compétence de 2 et une autre compétence de 1, ou augmentez trois compétences différentes de 1.</p>
+                <p><b>Ascendance chromatique. </b>Vous faites remonter votre ascendance à un dragon métallique, vous accordant une affinité magique spéciale. Choisissez un type de dragon dans le tableau d'ascendance métallique. Cela détermine le type de dégâts pour vos autres traits, comme indiqué dans le tableau.</p>
+                <input type="button" value="Ascendance Métallique &#11163;" onclick="masquerDiv('metallic');" />
+                    <div id="metallic">
+                        <table class="dragonborn-2">
+                            <tr>
+                                <th>Dragon</th>
+                                <th>Type de dégâts</th>
+                            </tr>
+                            <tr>
+                                <td>Laiton</td>
+                                <td>Feu</td>
+                            </tr>
+                            <tr>
+                                <td>Bronze</td>
+                                <td>Foudre</td>
+                            </tr>
+                            <tr>
+                                <td>Cuivre</td>
+                                <td>Acide</td>
+                            </tr>
+                            <tr>
+                                <td>Or</td>
+                                <td>Feu</td>
+                            </tr>
+                            <tr>
+                                <td>Argent</td>
+                                <td>Froid</td>
+                            </tr>
+                        </table>
+                    </div>
+                <p><b>Souffle. </b>Lorsque vous effectuez l'action Attaque à votre tour, vous pouvez remplacer l'une de vos attaques par un souffle d'énergie magique dans un cône de 4,50 mètres (15 feet). Chaque créature dans cette zone doit effectuer un jet de sauvegarde de Dextérité (DD = 8 + votre modificateur de Constitution + votre bonus de maîtrise). En cas d'échec, la créature subit 1d10 dégâts du type associé à votre ascendance métallique. En cas de sauvegarde réussie, les dégâts sont réduits de moitié. Ces dégâts augmentent de 1d10 lorsque vous atteignez le niveau 5 (2d10), le niveau 11 (3d10) et le niveau 17 (4d10). Vous pouvez utiliser votre Souffle un nombre de fois égal à votre bonus de maîtrise, et vous récupérez toutes les utilisations dépensées lorsque vous terminez un repos long.</p>
+                <p><b>Résistance métallique. </b>Vous avez une résistance au type de dégâts de votre ascendance métallique.</p>
+                <p><b>Souffle métallique. </b>Au niveau 5, vous gagnez un seconde souffle. Lorsque vous effectuez l'action Attaque à votre tour, vous pouvez remplacer l'une de vos attaques par un souffle dans un cône de 9 mètres (15 feet). Le DD de sauvegarde pour ce souffle est de 8 + votre modificateur de Constitution + votre bonus de maîtrise. Chaque fois que vous utilisez ce trait, choisissez-en un :</p>
+                <ul>
+                    <li><b>Souffle énervant. </b>Chaque créature dans le cône doit réussir un jet de sauvegarde de Constitution ou devenir incapable d'agir jusqu'au début de votre prochain tour.</li>
+                    <li><b>Souffle répulsif. </b>Chaque créature dans le cône doit réussir un jet de sauvegarde de Force ou être poussée à 6 mètres (20 feet) de vous et être mise à terre.</li>
+                    <li class="back">Une fois que vous avez utilisé votre souffle métallique, vous ne pouvez plus le faire avant d'avoir terminé un long repos.</li>
+                </ul>
+                <p><b>Langues. </b>Vous pouvez parler, lire et écrire le commun et une autre langue que vous et votre MD considérez comme appropriée pour le personnage.</p>
+        </section>
+        <section>
+            <h5 id="ftod-gems">Gemme</h5>
+                <p class="description">Les Drakéïdes de gemmes participent à l'héritage des dragons de gemmes, qui prétendent être les héritiers de Sardior, le dragon rubis. Les couleurs et les pouvoirs mystérieux des dragons de gemmes (améthyste, cristal, émeraude, saphir et topaze) brillent dans la peau écaillée de ces Drakéïdes et parcourent leurs veines. Ils sont les merveilles de l'esprit, la force de la volonté, la lumière brillante de la perspicacité et l'écho retentissant de la découverte, mais aussi le dessèchement du désespoir.</p>
+                <p class="description">Remplacez les <a href="#ph">traits standards</a> par les suivants à l'exception de l'Âge, de la Taille, de l'Alignement et de la Vitesse.</p>
+                <p><b>Augmentation de caractéristiques. </b>Augmentez une compétence de 2 et une autre compétence de 1, ou augmentez trois compétences différentes de 1.</p>
+                <p><b>Ascendance de gemmes. </b>Vous faites remonter votre ascendance à un dragon de gemmes, vous accordant une affinité magique spéciale. Choisissez un type de dragon dans le tableau d'ascendance de gemmes. Cela détermine le type de dégâts pour vos autres traits, comme indiqué dans le tableau.</p>
+                <input type="button" value="Ascendance de Gemmes &#11163;" onclick="masquerDiv('gem');" />
+                    <div id="gem">
+                        <table class="dragonborn-2">
+                            <tr>
+                                <th>Dragon</th>
+                                <th>Type de dégâts</th>
+                            </tr>
+                            <tr>
+                                <td>Améthyste</td>
+                                <td>Force</td>
+                            </tr>
+                            <tr>
+                                <td>Cristal</td>
+                                <td>Radiant</td>
+                            </tr>
+                            <tr>
+                                <td>Émeraude</td>
+                                <td>Psychique</td>
+                            </tr>
+                            <tr>
+                                <td>Saphir</td>
+                                <td>Tonnerre</td>
+                            </tr>
+                            <tr>
+                                <td>Topaze</td>
+                                <td>Nécrotique</td>
+                            </tr>
+                        </table>
+                    </div>
+                <p><b>Souffle. </b>Lorsque vous effectuez l'action Attaque à votre tour, vous pouvez remplacer l'une de vos attaques par un souffle d'énergie magique sur une ligne de 1,50 mètre (5 feet) de large et de 9 mètres (30 feet) de long. Chaque créature dans cette zone doit effectuer un jet de sauvegarde de Dextérité (DD = 8 + votre modificateur de Constitution + votre bonus de maîtrise). En cas d'échec, la créature subit 1d10 dégâts du type associé à votre ascendance chromatique. En cas de réussite, les dégâts sont réduits de moitié. Ces dégâts augmentent de 1d10 lorsque vous atteignez le niveau 5 (2d10), le niveau 11 (3d10) et le niveau 17 (4d10). Vous pouvez utiliser votre Souffle un nombre de fois égal à votre bonus de maîtrise, et vous récupérez toutes les utilisations dépensées lorsque vous terminez un repos long.</p>
+                <p><b>Résistance de gemmes. </b>Vous avez une résistance au type de dégâts de votre ascendance de gemmes.</p>
+                <p><b>Esprit psionique. </b>Vous pouvez parler par télépathie à toute créature que vous pouvez voir à moins de 9 mètres (30 feet) de vous. Vous n'avez pas besoin de partager une langue avec la créature, mais la créature doit être capable de comprendre au moins une langue.</p>
+                <p><b>Vol de gemmes. </b>À partir du niveau 5, vous pouvez utiliser une action bonus pour manifester des ailes spectrales sur votre corps. Ces ailes durent 1 minute. Pendant toute la durée, vous gagnez une vitesse de vol égale à votre vitesse de marche et pouvez planer. Une fois que vous utilisez ce trait, vous ne pouvez plus le faire avant d'avoir terminé un repos long.</p>
+                <p><b>Langues. </b>Vous pouvez parler, lire et écrire le commun et une autre langue que vous et votre MD considérez comme appropriée pour le personnage.</p>
+        </section>
+    </main>
+    <footer>
+        <p>Toutes les informations présentées ici sont issues du site anglophone <a href="http://dnd5e.wikidot.com/">DND5e Wikidot.com</a></p>
+        <p>Sauf indication contraire, le contenu de cette page est sous licence <a href="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0</a></p>
+    </footer>
+    <script src="../../assets/javascript/race.js"></script>
+</body>
+</html>

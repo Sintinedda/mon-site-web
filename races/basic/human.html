@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Humain, DND 5ème édition</title>
+    <link rel="stylesheet" href="../../assets/css/race-style.css">
+    <link rel="stylesheet" href="../../assets/css/header-style.css">
+    <link rel="stylesheet" href="../../assets/css/footer-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>L'Arcanium de Donjons & Dragons</h1>
+    </header>
+    <main>
+        <nav>
+            <ul id="nav">
+                <li id="nav_item"><a href="../../index.html#classes">Classes</a>
+                    <ul id="nav_dropdown">
+                        <!--List for classes-->
+                        <li><a href="../../classes/artificer.html">Artificier</a></li>
+                        <li><a href="../../classes/barbarian.html">Barbare</a></li>
+                        <li><a href="../../classes/bard.html">Barde</a></li>
+                        <li><a href="../../classes/cleric.html">Clerc</a></li>
+                        <li><a href="../../classes/druid.html">Druide</a></li>
+                        <li><a href="../../classes/sorcerer.html">Ensorceleur</a></li>
+                        <li><a href="../../classes/fighter.html">Guerrier</a></li>
+                        <li><a href="../../classes/wizard.html">Magicien</a></li>
+                        <li><a href="../../classes/monk.html">Moine</a></li>
+                        <li><a href="../../classes/warlock.html">Occultiste</a></li>
+                        <li><a href="../../classes/paladin.html">Paladin</a></li>
+                        <li><a href="../../classes/ranger.html">Rôdeur</a></li>
+                        <li><a href="../../classes/rogue.html">Roublard</a></li>
+                    </ul>
+                </li>
+                <li id="nav_item"><a href="../../index.html#races">Races</a>
+                    <ul id="nav_dropdown">
+                        <!--List for races-->
+                        <li id="nav_dropdown_item"><a href="../../index.html#basic-race">Basique</a></li>
+                        <li><a href="./half-elf.html">Demi-Elfe</a></li>
+                        <li><a href="./half-orc.html">Demi-Orc</a></li>
+                        <li><a href="./dragonborn.html">Drakéide</a></li>
+                        <li><a href="./elf.html">Elfe</a></li>
+                        <li><a href="./gnome.html">Gnome</a></li>
+                        <li><a href="./halfling.html">Halfelin</a></li>
+                        <li><a href="./human.html">Humain</a></li>
+                        <li><a href="./dwarf.html">Nain</a></li>
+                        <li><a href="./tiefling.html">Tieffelin</a></li>
+                        <li id="nav_dropdown_item"><a href="../../index.html#exotic-race">Exotique</a></li>
+                        <li><a href="../exotic/aarakocra.html">Aarakocra</a></li>
+                        <li><a href="../exotic/aasimar.html">Aasimar</a></li>
+                        <li><a href="../exotic/changling.html">Changelin</a></li>
+                        <li><a href="../exotic/fey.html">Fée</a></li>
+                        <li><a href="../exotic/firbolg.html">Firbolg</a></li>
+                        <li><a href="../exotic/genasi.html">Genasi</a></li>
+                        <li><a href="../exotic/gith.html">Gith</a></li>
+                        <li><a href="../exotic/goliath.html">Goliath</a></li>
+                        <li><a href="../exotic/harengon.html">Harengon</a></li>
+                        <li><a href="../exotic/kenku.html">Kenku</a></li>
+                        <li><a href="../exotic/locathah.html">Locathah</a></li>
+                        <li><a href="../exotic/owlin.html">Owlin</a></li>
+                        <li><a href="../exotic/satyr.html">Satyre</a></li>
+                        <li><a href="../exotic/tabaxi.html">Tabaxi</a></li>
+                        <li><a href="../exotic/tortle.html">Tortle</a></li>
+                        <li><a href="../exotic/triton.html">Triton</a></li>
+                        <li><a href="../exotic/verdan.html">Verdan</a></li>
+                        <li id="nav_dropdown_item"><a href="../../index.html#monstrous-race">Monstrueuse</a></li>
+                        <li><a href="../monstrous/centaur.html">Centaure</a></li>
+                        <li><a href="../monstrous/bugbear.html">Epouvantail</a></li>
+                        <li><a href="../monstrous/goblin.html">Gobelin</a></li>
+                        <li><a href="../monstrous/hobgoblin.html">Gobelours</a></li>
+                        <li><a href="../monstrous/grung.html">Grung</a></li>
+                        <li><a href="../monstrous/kobold.html">Kobold</a></li>
+                        <li><a href="../monstrous/minotaur.html">Minotaure</a></li>
+                        <li><a href="../monstrous/shifter.html">Métamorphe</a></li>
+                        <li><a href="../monstrous/orc.html">Orc</a></li>
+                        <li><a href="../monstrous/lizardfolk.html">Peuple Lézard</a></li>
+                        <li><a href="../monstrous/yuan-ti.html">Yuan-Ti</a></li>
+                        <li id="nav_dropdown_item"><a href="../../index.html#dragonlance-race">Lancedragon</a></li>
+                        <li><a href="../specific/kender.html">Kender</a></li>
+                        <li id="nav_dropdown_item"><a href="../../index.html#eberron-race">Eberron</a></li>
+                        <li><a href="../specific/warforged.html">Forgelin</a></li>
+                        <li><a href="../specific/kalashtar.html">Kalashtar</a></li>
+                        <li id="nav_dropdown_item"><a href="../../index.html#planeshift-race">Changement de Plan</a></li>
+                        <li><a href="../specific/aven.html">Aven</a></li>
+                        <li><a href="../specific/aetherborn.html">Ethéré</a></li>
+                        <li><a href="../specific/khenra.html">Khenra</ali>
+                        <li><a href="../specific/kor.html">Kor</a></li>
+                        <li><a href="../specific/naga.html">Naga</a></li>
+                        <li><a href="../specific/merfolk.html">Peuple de la Mer</a></li>
+                        <li><a href="../specific/siren.html">Sirène</a></li>
+                        <li><a href="../specific/vampire.html">Vampire</a></li>
+                        <li id="nav_dropdown_item"><a href="../../index.html#ravenloft-race">Ravenloft</a></li>
+                        <li><a href="../specific/dhampir.html">Dhampir</a></li>
+                        <li><a href="../specific/reborn.html">Renaissant</a></li>
+                        <li><a href="../specific/hexblood.html">Sang-Maudit</a></li>
+                        <li id="nav_dropdown_item"><a href="../../index.html#ravnica-race">Ravnica</a></li>
+                        <li><a href="../specific/simic-hybrid.html">Hybride Simique</a></li>
+                        <li><a href="../specific/loxodon.html">Loxodon</a></li>
+                        <li><a href="../specific/vedalken.html">Vedalken</a></li>
+                        <li id="nav_dropdown_item"><a href="../../index.html#spelljammer-race">Spelljammer</a></li>
+                        <li><a href="../specific/autognome.html">Autognome</a></li>
+                        <li><a href="../specific/giff.html">Giff</a></li>
+                        <li><a href="../specific/hadozee.html">Hadozee</a></li>
+                        <li><a href="../specific/plasmoid.html">Plasmoid</a></li>
+                        <li><a href="../specific/thri-kreen.html">Thri-Kreen</a></li>
+                        <li id="nav_dropdown_item"><a href="../../index.html#theros-race">Theros</a></li>
+                        <li><a href="../specific/leonin.html">Leonin</a></li>
+                    </ul>
+                </li>
+                <li id="nav_item"><a href="../../index.html#backgrounds">Historiques</a>
+                    <ul id="nav_dropdown">
+                        <!--List for backgrounds-->
+                        <li><a href="../../index.html#common-bg">Historiques communs</a></li>
+                        <li><a href="../../index.html#curse-of-strahd-bg">La malédiction de Strahd</a></li>
+                        <li><a href="../../index.html#mulmaster-bg">Mulmaster</a></li>
+                        <li><a href="../../index.html#hillsfar-bg">Hillsfar</a></li>
+                        <li><a href="../../index.html#acquisitions-inc-bg">Acquisitions inc.</a></li>
+                        <li><a href="../../index.html#amonkhet-bg">Amonkhet</a></li>
+                        <li><a href="../../index.html#dragonlance-bg">Lancedragon</a></li>
+                        <li><a href="../../index.html#innistrad-bg">Innistrad</a></li>
+                        <li><a href="../../index.html#planescape-bg">Planescape</a></li>
+                        <li><a href="../../index.html#ravnica-bg">Ravnica</a></li>
+                        <li><a href="../../index.html#strixhaven-bg">Strixhaven</a></li>
+                        <li><a href="../../index.html#wildemount-bg">Wildemount</a></li>
+                        <li><a href="../../index.html#spelljammer-bg">Spelljammer</a></li>
+                        <li id="nav_dropdown_item"><a href="../../backgrounds/optional-bg/optional-bg.html">Fonctionnalités facultatives</a></li>
+                    </ul>
+                </li>
+                <li id="nav_item"><a href="../../index.html#spells">Sorts</a>
+                    <ul id="nav_dropdown">
+                        <!--List for spells-->
+                        <li id="nav_dropdown_item"><a href="../../index.html#classe-spells">Classe</a></li>
+                        <li><a href="../../spells/classe-spells/artificer-spells.html">Sorts d'Artificier</a></li>
+                        <li><a href="../../spells/classe-spells/bard-spells.html">Sorts de Barde</a></li>
+                        <li><a href="../../spells/classe-spells/cleric-spells.html">Sorts de Clerc</a></li>
+                        <li><a href="../../spells/classe-spells/druid-spells.html">Sorts de Druide</a></li>                   
+                        <li><a href="../../spells/classe-spells/sorcerer-spells.html">Sorts d'Ensorceleur</a></li>
+                        <li><a href="../../spells/classe-spells/wizard-spells.html">Sorts de Magicien</a></li>
+                        <li><a href="../../spells/classe-spells/warlock-spells.html">Sorts d'Occultiste</a></li>
+                        <li><a href="../../spells/classe-spells/paladin-spells.html">Sorts de Paladin</a></li>
+                        <li><a href="../../spells/classe-spells/ranger-spells.html">Sorts de Rôdeur</a></li>
+                        <li id="nav_dropdown_item"><a href="../../index.html#school-spells">Ecole</a></li>
+                        <li><a href="../../spells/school-spells/abjuration.html">Abjuration</a></li>
+                        <li><a href="../../spells/school-spells/conjuration.html">Conjuration</a></li>
+                        <li><a href="../../spells/school-spells/divination.html">Divination</a></li>
+                        <li><a href="../../spells/school-spells/enchantment.html">Enchantement</a></li>
+                        <li><a href="../../spells/school-spells/evocation.html">Evocation</a></li>
+                        <li><a href="../../spells/school-spells/illusion.html">Illusion</a></li>
+                        <li><a href="../../spells/school-spells/necromancy.html">Nécromancie</a></li>
+                        <li><a href="../../spells/school-spells/transmutation.html">Transmutation</a></li>
+                        <li id="nav_dropdown_item"><a href="../../spells/level-spells.html">Niveau</a></li>
+                        <li><a href="../../spells/level-spells.html#lvl0">Sorts mineur</a></li>
+                        <li><a href="../../spells/level-spells.html#lvl1">Niveau 1</a></li>
+                        <li><a href="../../spells/level-spells.html#lvl2">Niveau 2</a></li>
+                        <li><a href="../../spells/level-spells.html#lvl3">Niveau 3</a></li>
+                        <li><a href="../../spells/level-spells.html#lvl4">Niveau 4</a></li>
+                        <li><a href="../../spells/level-spells.html#lvl5">Niveau 5</a></li>
+                        <li><a href="../../spells/level-spells.html#lvl6">Niveau 6</a></li>
+                        <li><a href="../../spells/level-spells.html#lvl7">Niveau 7</a></li>
+                        <li><a href="../../spells/level-spells.html#lvl8">Niveau 8</a></li>
+                        <li><a href="../../spells/level-spells.html#lvl9">Niveau 9</a></li>
+                    </ul>
+                </li>
+                <li id="nav_item"><a href="../../index.html#items">Equipements</a>
+                    <ul id="nav_dropdown">
+                        <!--List for items-->
+                        <li><a href="../../items/weapons.html">Armes</a></li>
+                        <li><a href="../../items/firearms.html">Armes à Feu</a></li>
+                        <li><a href="../../items/armor-and-shields.html">Armures et Boucliers</a></li>
+                        <li><a href="../../items/trinkets.html">Bibelots</a></li>
+                        <li><a href="../../items/currency.html">Devises</a></li>
+                        <li><a href="../../items/adventuring-gear.html">Equipements d'Aventurier</a></li>
+                        <li><a href="../../items/siege-equipment.html">Equipements de Siège</a></li>
+                        <li><a href="../../items/explosives.html">Explosifs</a></li>
+                        <li><a href="../../items/wondrous-items.html">Objets Magique</a></li>
+                        <li><a href="../../items/tools.html">Outils</a></li>
+                        <li><a href="../../items/poisons.html">Poisons</a></li>
+                    </ul>
+                </li>
+                <li id="nav_item"><a href="../../index.html#feats">Dons</a>
+                    <ul id="nav_dropdown">
+                        <!--List for feats-->
+                        <li><a href="../../index.html#common-feat">Classiques</a></li>
+                        <li><a href="../../index.html#planescape-feat">Planescape</a></li>
+                        <li><a href="../../index.html#strixhaven-feat">Strixhaven</a></li>
+                        <li><a href="../../index.html#dragonlance-feat">Lancedragon</a></li>
+                        <li><a href="../../index.html#planeshift-feat">Changement de Plan</a></li>
+                        <li><a href="../../index.html#racial-feat">Dons Raciaux</a></li>
+                    </ul>
+                </li>
+                <li id="nav_item"><a href="">Bestaire</a>
+                    <ul id="nav_dropdown">
+                    <!--List for monsters-->
+                        <li><a href="">A venir prochainement</a></li>
+                    </ul>
+                </li>
+                <li id="nav_item"><a href="../../index.html#miscellaneous">Divers</a>
+                    <ul id="nav_dropdown">
+                        <li><a href="../../miscellaneous/unearthed-arcana/unearthed-arcana.html"></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <h2>Humain</h2>
+        <section class="summary">
+            <h3>Sommaire</h3>
+            <ul>
+                <li><a href="#ph">Manuel du Joueur</a>
+                    <ul>
+                        <li><a href="#ph-variant">Variante</a></li>
+                    </ul>
+                </li>
+                <li><a href="#ps-dominaria">Changement de Plan : Dominaria</a>
+                    <ul>
+                        <li><a href="#ps-d-keldon">Keldon</a></li>
+                    </ul>
+                </li>
+                <li><a href="#ps-innistrad">Changement de Plan : Innistrad</a>
+                    <ul>
+                        <li><a href="#ps-i-gavony">Gavonie</a></li>
+                        <li><a href="#ps-i-kessig">Kessig</a></li>
+                        <li><a href="#ps-i-nephalia">Néphalie</a></li>
+                        <li><a href="#ps-i-stensia">Sténia</a></li>
+                    </ul>
+                </li>
+                <li><a href="#erotlw">Eberron, Soulèvement de la Dernière Guerre</a>
+                    <ul>
+                        <li><a href="#erotlw-findingmark">Marque de la Découverte</a></li>
+                        <li><a href="#erotlw-handlingmark">Marque de la Manipulation</a></li>
+                        <li><a href="#erotlw-makingmark">Marque de la Fabrication</a></li>
+                        <li><a href="#erotlw-passagemark">Marque du Voyage</a></li>
+                        <li><a href="#erotlw-sentinelmark">Marque de la Sentinelle</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h4 id="ph">Manuel du Joueur</h4>
+            <p class="description">Dans la plupart des mondes, les Humains sont la plus jeune des races communes, arrivés tardivement sur la scène mondiale et éphémères par rapport aux Nains, aux Elfes et aux dragons. C'est peut-être à cause de leur vie plus courte qu'ils s'efforcent d'accomplir autant qu'ils le peuvent au cours des années qui leur sont imparties. Ou peut-être qu'ils sentent qu'ils ont quelque chose à prouver aux races aînées, et c'est pourquoi ils construisent leurs puissants empires sur la base de la conquête et du commerce. Quelle que soit leur motivation, les Humains sont les innovateurs et les pionniers du monde.</p>
+            <p><b>Augmentation de caractéristiques. </b>Chacune de vos caractéristiques augmentent de 1.</p> 
+            <p><b>Âge. </b>Les Humains atteignent l'âge adulte à la fin de l'adolescence et vivent moins de 100 ans</p>
+            <p><b>Taille. </b>Les Humains varient considérablement en taille et en constitution, d'à peine 1,50 mètre à bien plus de 1,80 mètre. Quelle que soit votre taille dans cette gamme, votre taille est moyenne.</p>
+            <p><b>Alignement. </b>Les Humains ne tendent vers aucun alignement particulier. Le meilleur et le pire se trouvent parmi eux.</p>
+            <p><b>Vitesse. </b>Votre vitesse de marche de base est de 9 mètres (30 feet).</p>
+            <p><b>Langues. </b>Vous pouvez parler, lire et écrire la langue commune ainsi qu'une langue supplémentaire de votre choix. Les Humains apprennent généralement les langues des autres peuples avec lesquels ils sont en contact, y compris des dialectes obscurs. Ils aiment parsemer leur discours de mots empruntés à d'autres langues : malédictions Orcs, expressions musicales elfiques, phrases militaires naines, etc.</p>
+        </section>
+        <section>
+            <h5 id="ph-variant">Variante</h5>
+            <p class="description">Si votre MD autorise les règles alternatives, vous pouvez utiliser cette variante qui remplacent le trait d'Augmentation de caractéristiques.</p>
+            <p><b>Augmentation de caractéristiques. </b>Vous augmentez deux caractéristiques de votre choix de 1.</p> 
+            <p><b>Compétences. </b>Vous maîtrisez une compétence de votre choix.</p>
+            <p><b>Dons. </b>Vous gagnez un don de votre choix.</p>
+        </section>
+        <section>
+            <h4 id="ps-dominaria">Changement de Plan : Dominaria</h4>
+            <h5 id="ps-d-keldon">Keldon</h5>
+            <p class="description">Les habitants de Keld sont des Humains, mais ils ne ressemblent à aucun autre Humain. Presque tous les adultes mesurent plus de 1,80 mètres et les hauteurs supérieures à 2,10 mètres ne sont pas rares. Ils sont massivement musclés et ont une peau grise, allant d'un gris-blanc cendré à un bleu-gris plus foncé. La racine des cheveux typique des Keldons pointe brusquement vers le milieu du front et sur chaque tempe, mais reculent ailleurs, parfois de façon spectaculaire. Les Keldons sont remarquablement résistants au froid de leur pays d'origine, dénudant leur peau même à des températures proches de zéro sans inconfort.</p>
+            <p class="description">Les Keldons valorisent avant tout l'autonomie, la force et le courage. Tout ce qui est le produit de leur propre travail est une bonne chose. Tout le reste est traité avec une bonne dose de scepticisme. Au mieux, ce sont des gens fiers, pragmatiques et passionnés, et leur loyauté est féroce une fois gagnée. Au pire, ils peuvent être imprudents, colériques et violents, et un grand nombre de Keldons considèrent ces qualités comme des vertus plutôt que comme des vices.</p>
+            <p class="description">Utilisez les <a href="#ph">traits standards</a> hormis l'Âge et la Vitesse, et ajoutez les traits suivants.</p>
+            <p><b>Augmentation de caractéristiques. </b>Votre Force augmente de 2 et votre Constitution augmente de 1.</p> 
+            <p><b>Taille. </b>Les Keldons sont plus grands et plus lourds que les normes humaines des autres cultures, mesurant presque universellement plus de 1,80 mètre et atteignant des hauteurs supérieures à 2,10 mètres. Votre taille est moyenne.</p>
+            <p><b>Alignement. </b>Les Keldons ont tendance à adopter des alignements chaotiques, et beaucoup marchent sur une ligne ténue entre le bien et le mal.</p>
+            <p><b>Athlète inné. </b>Vous maîtrisez la compétence Athlétisme.</p>
+            <p><b>Résilience Keldon. </b>Vous maîtrisez les jets de sauvegarde de Force.</p>
+            <p><b>Enfant du refuge de glace. </b>Vous êtes naturellement adapté aux climats froids.</p>
+            <p><b>Langues. </b>Vous pouvez parler, lire et écrire le commun et le Keldon.</p>
+        </section>
+        <section>
+            <h4 id="ps-innistrad">Changement de Plan : Innistrad</h4>
+            <p class="description">La population d'Innistrad est majoritairement humaine, et les personnages joueurs d'une campagne Innistrad devraient être Humains dans la plupart des circonstances. Cependant, les Humains de Kessig sont différents à bien des égards de ceux de Gavonie, et la culture urbaine de Néphalie est très distincte de la terre drapée d'ombre de Sténia. La diversité parmi ces Humains ne vient pas de la race, mais de la province d'origine de chacun.</p>
+            <p class="description">Si vous choisissez un Humain d'Innistrad vous devez choisir une des origines provinciales suivantes</p>
+        </section>
+        <section>
+            <h5 id="ps-i-gavony">Gavonie</h5>
+            <p class="description">Qu'ils soient en sécurité derrière les murs de la Haute Ville de Thraben ou dans les landes avec à peine plus que des fenêtres aux volets fermés, des portes grillagées et une détermination farouche à résister aux horreurs de la nuit, les Humains de Gavonie sont le peuple le plus complet d'Innistrad.</p>
+            <p class="description">Utilisez les <a href="#ph">traits standards</a> hormis l'Augmentation de caractéristiques et ajoutez les traits suivants. Vous ne pouvez pas utiliser la <a href="#ph-variant">variante humaine</a>.</p>
+            <p><b>Augmentation de caractéristiques. </b>Vous augmentez chaque caractéristiques de 1.</p> 
+        </section>
+        <section>
+            <h5 id="ps-i-kesig">Kessig</h5>
+            <p class="description">Pour les Humains du Kessig, la vie est un travail. Ce sont sont des agriculteurs, des meuniers, des tisserands et des tailleurs de pierre, vivant à proximité de la terre et travaillant dur pour chaque repas. Cela les rend autonomes, pragmatiques et francs.</p>
+            <p class="description">Utilisez les <a href="#ph">traits standards</a> hormis l'Augmentation de caractéristiques et ajoutez les traits suivants. Vous ne pouvez pas utiliser la <a href="#ph-variant">variante humaine</a>.</p>
+            <p><b>Augmentation de caractéristiques. </b>Votre Dextérité et votre Sagesse augmentent de 1.</p> 
+            <p><b>Peuple de la forêt. </b>Vous maîtrisez la compétence Survie.</p>
+            <p><b>Foulée légère. </b>Votre vitesse de marche de base passe à 12 mètres (40 feet).</p>
+            <p><b>Pied sûr. </b>Lorsque vous utilisez l'action foncer, un terrain difficile ne vous coûte pas de mouvement supplémentaire pendant ce tour.</p>
+            <p><b>Attaque printanière. </b>Lorsque vous effectuez une attaque au corps à corps contre une créature, vous ne provoquez pas d'attaques d'opportunité de cette créature pour le reste de votre tour, que vous touchiez ou non.</p>
+        </section>
+        <section>
+            <h5 id="ps-i-nephalia">Néphalie</h5>
+            <p class="description">Sous un voile de brouillard omniprésent venant de la mer, les habitants de Néphalie maintiennent un semblant de normalité, achetant et vendant des marchandises de tout Innistrad sur leurs marchés animés, partant en mer à bord de minuscules bateaux de pêche ou labourant la terre détrempée. dans des champs gorgés d'eau.</p>
+            <p class="description">Utilisez les <a href="#ph">traits standards</a> hormis l'Augmentation de caractéristiques et ajoutez les traits suivants. Vous ne pouvez pas utiliser la <a href="#ph-variant">variante humaine</a>.</p>
+            <p><b>Augmentation de caractéristiques. </b>Votre Intelligence et votre Charisme augmente de 1.</p> 
+            <p><b>Étendue des connaissances. </b>Vous maîtrisez n'importe quelle combinaison de quatre compétences ou de quatre outils de votre choix.</p>
+        </section>
+        <section>
+            <h5 id="ps-i-stensia">Sténia</h5>
+            <p class="description">D'innombrables générations de difficultés et de proximité avec les forteresses des vampires, entraînant la perte d'enfants et de voisins, ont appris aux Humains de la Sténia à garder leur bonté. Ils sont fiers et fervents dans leurs croyances mais semblent brusques, voire froids, aux yeux des habitants des autres provinces.</p>
+            <p class="description">Utilisez les <a href="#ph">traits standards</a> hormis l'Augmentation de caractéristiques et ajoutez les traits suivants. Vous ne pouvez pas utiliser la <a href="#ph-variant">variante humaine</a>.</p>
+            <p><b>Augmentation de caractéristiques. </b>Votre Force et votre Constitution augmente de 1.</p>
+            <p><b>Intimidant. </b>Vous maîtrisez la compétence Intimidation.</p>
+            <p><b>Robuste. </b>Votre maximum de points de vie augmente de 2, et il augmente de 2 à chaque fois que vous gagnez un niveau.</p>
+        </section>
+        <section>
+            <h4 id="erotlw">Eberron, Soulèvement de la Dernière Guerre</h4>
+            <h5 id="erotlw-findingmark">Marque de la Découverte</h5>
+            <p class="description">Utilisez les <a href="#ph">traits standards</a> hormis l'Augmentation de caractéristiques et les Langues, et ajoutez les traits suivants.</p>
+            <p><b>Augmentation de caractéristiques. </b>Votre Sagesse augmente de 2 et votre Constitution augmente de 1.</p> 
+            <p><b>Vision dans le noir. </b>Vous disposez d'une vision supérieure dans des conditions de faible luminosité et d'obscurité. Vous pouvez voir dans une lumière faible à moins de 18 mètres (60 feet) de vous comme s'il s'agissait d'une lumière vive, et dans l'obscurité comme s'il s'agissait d'une lumière faible. Vous ne pouvez pas discerner les couleurs dans l'obscurité, seulement les nuances de gris.</p>
+            <p><b>Intuition du chasseur. </b>Chaque fois que vous effectuez un test de Perception ou de Survie, vous pouvez lancer 1d4 et ajouter le nombre obtenu au test de compétence.</p>
+                    <p><b>Magie du chercheur. </b>Vous pouvez lancer le sort <a href="../../spells/divination/1/hunters-mark.html">Marque du Chasseur</a>. À partir du niveau 3, vous pouvez également lancer le sort <a href="../../spells/divination/2/locate-object.html">Localisation d'Objet</a>. Une fois que vous avez lancé l'un de ces sorts avec ce trait, vous ne pouvez plus lancer ce sort tant que vous n'avez pas terminé un repos long. La Sagesse est votre caractéristique de lanceur de sorts pour les sorts lancés avec ce trait.</p>
+                    <p><b>Langues. </b>Vous pouvez parler, lire et écrire le commun et le Gobelin.</p>
+                    <p><b>Sorts de la marque de la découverte. </b>Si vous disposez d'une classe de lanceur de sorts, les sorts du tableau suivant sont ajoutés à la liste de sorts de votre classe.</p>
+                    <input type="button" value="Sorts de la Marque de la Découverte &#11163;" onclick="masquerDiv('findingmark');" />
+                        <div id="findingmark">
+                            <table>
+                                <tr>
+                                    <th>Niveau de sort</th>
+                                    <th>Sorts</th>
+                                </tr>
+                                <tr>
+                                    <td>1er</td>
+                                    <td><a href="../../spells/evocation/1/faerie-fire.html">Lueurs Féeriques</a> , <a href="../../spells/transmutation/1/longstrider.html">Grande Foulée</a></td>
+                                </tr>
+                                <tr>
+                                    <td>2ème</td>
+                                    <td><a href="../../spells/divination/2/locate-animals-or-plants.html">Localisation d'Animaux ou de Plantes</a> , <a href="../../spells/divination/2/locate-object.html">Localisation d'Objet</a></td>
+                                </tr>
+                                <tr>
+                                    <td>3ème</td>
+                                    <td><a href="../../spells/divination/3/clairvoyance.html">Clairvoyance</a> , <a href="../../spells/transmutation/3/speak-with-plants.html">Communication Avec les Plantes</a></td>
+                                </tr>
+                                <tr>
+                                    <td>4ème</td>
+                                    <td><a href="../../spells/divination/4/divination.html">Divination</a> , <a href="../../spells/divination/4/locate-creature.html">Localisation de Créature</a></td>
+                                </tr>
+                                <tr>
+                                    <td>5ème</td>
+                                    <td><a href="../../spells/divination/5/commune-with-nature.html">Communion Avec la Nature</a></td>
+                                </tr>
+                            </table>
+                        </div>
+        </section>
+        <section>
+            <h5 id="erotlw-handlingmark">Marque de la Manipulation</h5>
+            <p class="description">Utilisez les <a href="#ph">traits standards</a> hormis l'Augmentation de caractéristiques et ajoutez les traits suivants.</p>
+            <p><b>Augmentation de caractéristiques. </b>Votre Sagesse augmente de 2 et une autre caractéristique au choix augmente de 1.</p> 
+            <p><b>Intuition sauvage. </b>Chaque fois que vous effectuez un test de Dressage ou de Nature, vous pouvez lancer 1d4 et ajouter le nombre obtenu au test.</p>
+            <p><b>Connexion primordiale. </b>Vous pouvez lancer le sort <a href="../../spells/enchantment/1/animal-friendship.html">Amitié Avec les Animaux</a> et <a href="../../spells/divination/1/speak-with-animals.html">Communication Avec les Animaux</a>, ces sorts ne nécessitent aucun composant matériel s'ils sont lancés avec ce trait. Une fois que vous avez lancé l'un ou l'autre sort avec ce trait, vous ne pouvez plus lancer ce sort tant que vous n'avez pas terminé un repos long. La Sagesse est votre caractéristique pour les sorts lancés avec ce trait.</p>
+            <p><b>Plus grosses sont elles. </b>À partir du niveau 3, vous pouvez cibler une bête ou une monstruosité lorsque vous lancez les sorts <a href="../../spells/enchantment/1/animal-friendship.html">Amitié Avec les Animaux</a> et <a href="../../spells/divination/1/speak-with-animals.html">Communication Avec les Animaux</a>, à condition que l'Intelligence de la créature soit de 3 ou moins.</p>
+            <p><b>Sorts de la marque de la manipulation. </b>Si vous disposez d'une classe de lanceur de sorts, les sorts du tableau suivant sont ajoutés à la liste de sorts de votre classe.</p>
+            <input type="button" value="Sorts de la Marque de la Manipulation &#11163;" onclick="masquerDiv('handlingmark');" />
+                <div id="handlingmark">
+                    <table>
+                        <tr>
+                            <th>Niveau de sort</th>
+                            <th>Sorts</th>
+                        </tr>
+                        <tr>
+                            <td>1er</td>
+                            <td><a href="../../spells/enchantment/1/animal-friendship.html">Amitié Avec les Animaux</a> , <a href="../../spells/divination/1/speak-with-animals.html">Communication Avec les Animaux</a></td>
+                        </tr>
+                        <tr>
+                            <td>2ème</td>
+                            <td><a href="../../spells/divination/2/beast-sense.html">Sens Animal</a> , <a href="../../spells/enchantment/2/calm-emotions.html">Apaisement des Émotions</a></td>
+                        </tr>
+                        <tr>
+                            <td>3ème</td>
+                            <td><a href="../../spells/abjuration/3/beacon-of-hope.html">Lueur d'Espoir</a> , <a href="../../spells/conjuration/3/conjure-animals.html">Invocation d'Animaux</a></td>
+                        </tr>
+                        <tr>
+                            <td>4ème</td>
+                            <td><a href="../../spells/abjuration/4/aura-of-life.html">Aura de Vie</a> , <a href="../../spells/enchantment/4/dominate-beast.html">Domination de Bête</a></td>
+                        </tr>
+                        <tr>
+                            <td>5ème</td>
+                            <td><a href="../../spells/transmutation/5/awaken.html">Éveil</a></td>
+                        </tr>
+                    </table>
+            </div>
+        </section>
+        <section>
+            <h5 id="erotlw-makingmark">Marque de la Fabrication</h5>
+            <p class="description">Utilisez les <a href="#ph">traits standards</a> hormis l'Augmentation de caractéristiques et ajoutez les traits suivants.</p>
+            <p><b>Augmentation de caractéristiques. </b>Votre Intelligence augmente de 2 et une autre caractéristique au choix augmente de 1.</p>
+            <p><b>Intuition artisanal. </b>Chaque fois que vous effectuez un test d'Arcanes ou impliquant des outils d'artisan, vous pouvez lancer 1d4 et ajouter le nombre obtenu au test.</p>
+            <p><b>Cadeau de l'artisan. </b>Vous maîtrisez un outil d'artisan de votre choix.</p>
+            <p><b>Sorts de forgeron. </b>Vous apprenez le sort mineur <a href="../../spells/transmutation/0/mending.html">Réparation</a>. Vous pouvez également lancer le sort <a href="../../spells/transmutation/2/magic-weapon.html">Arme Magique</a>. Lorsque vous faites cela, le sort dure 1 heure et ne nécessite pas de concentration avec ce trait. Une fois que vous avez lancé ce sort avec ce trait, vous ne pouvez plus lancer ce sort tant que vous n'avez pas terminé un repos long. L'Intelligence est votre caractéristique pour les sorts lancés avec ce trait.</p>
+            <p><b>Sorts de la marque de la manipulation. </b>Si vous disposez d'une classe de lanceur de sorts, les sorts du tableau suivant sont ajoutés à la liste de sorts de votre classe.</p>
+            <input type="button" value="Sorts de la Marque de la Fabrication &#11163;" onclick="masquerDiv('makingmark');" />    
+                <div id="makingmark">
+                    <table>
+                        <tr>
+                            <th>Niveau de sort</th>
+                            <th>Sorts</th>
+                        </tr>
+                        <tr>
+                            <td>1er</td>
+                            <td><a href="../../spells/divination/1/identify.html">Identification</a> , <a href="../../spells/conjuration/1/tensers-floating-disk.html">Disque Flottant de Tenser</a></td>
+                        </tr>
+                        <tr>
+                            <td>2ème</td>
+                            <td><a href="../../spells/evocation/2/continual-flame.html">Flamme Éternelle</a> , <a href="../../spells/transmutation/2/magic-weapon.html">Arme Magique</a></td>
+                        </tr>
+                        <tr>
+                            <td>3ème</td>
+                            <td><a href="../../spells/conjuration/3/conjure-barrage.html">Invocation de Projectiles</a> , <a href="../../spells/transmutation/3/elemental-weapon.html">Arme Élémentaire</a></td>
+                        </tr>
+                        <tr>
+                            <td>4ème</td>
+                            <td><a href="../../spells/transmutation/4/fabricate.html">Fabrication</a> , <a href="../../spells/transmutation/4/stone-shape.html">Façonnage de la Pierre</a></td>
+                        </tr>
+                        <tr>
+                            <td>5ème</td>
+                            <td><a href="../../spells/illusion/5/creation.html">Création</a></td>
+                        </tr>
+                    </table>
+                </div>
+        </section>
+        <section>
+            <h5 id="erotlw-passagemark">Marque du Voyage</h5>
+            <p class="description">Utilisez les <a href="#ph">traits standards</a> hormis l'Augmentation de caractéristiques et ajoutez les traits suivants.</p>
+            <p><b>Augmentation de caractéristiques. </b>Votre Dextérité augmente de 2 et une autre caractéristique de votre choix augmente de 1.</p>
+            <p><b>Vitesse du messager. </b>Votre vitesse de marche de base augmente à 10,50 mètres (25 feet).</p>
+            <p><b>Mouvement intuitif. </b>Chaque fois que vous effectuez un test d'Acrobaties ou un test impliquant la conduite ou l'entretien d'un véhicule terrestre, vous pouvez lancer 1d4 et ajouter le nombre obtenu au test.</p>
+            <p><b>Couloir magique. </b>Vous pouvez lancer le sort <a href="../../spells/conjuration/2/misty-step.html">Foulée Brumeuse</a>. Une fois que vous avez lancé ce sort avec ce trait, vous ne pouvez plus lancer ce sort tant que vous n'avez pas terminé un repos long. La Dextérité est votre caractéristique pour le sort lancé avec ce trait.</p>
+            <p><b>Sorts de la marque du voyage. </b>Si vous disposez d'une classe de lanceur de sorts, les sorts du tableau suivant sont ajoutés à la liste de sorts de votre classe.</p>
+            <input type="button" value="Sorts de la Marque du Voyage &#11163;" onclick="masquerDiv('passagemark');" /> 
+                <div id="passagemark">
+                    <table>
+                        <tr>
+                            <th>Niveau de sort</th>
+                            <th>Sorts</th>
+                        </tr>
+                        <tr>
+                            <td>1er</td>
+                            <td><a href="../../spells/transmutation/1/expeditious-retreat.html">Repli Expéditif</a> , <a href="../../spells/transmutation/1/jump.html">Saut</a></td>
+                        </tr>
+                        <tr>
+                            <td>2ème</td>
+                            <td><a href="../../spells/conjuration/2/misty-step.html">Foulée Brumeuse</a> , <a href="../../spells/abjuration/2/pass-without-trace.html">Passage Sans Trace</a></td>
+                        </tr>
+                        <tr>
+                            <td>3ème</td>
+                            <td><a href="../../spells/transmutation/3/blink.html">Clignotement</a> , <a href="../../spells/illusion/3/phantom-steed.html">Monture Fantôme</a></td>
+                        </tr>
+                        <tr>
+                            <td>4ème</td>
+                            <td><a href="../../spells/conjuration/4/dimension-door.html">Porte Dimensionnelle</a> , <a href="../../spells/abjuration/4/freedom-of-movement.html">Liberté de Mouvement</a></td>
+                        </tr>
+                        <tr>
+                            <td>5ème</td>
+                            <td><a href="../../spells/conjuration/5/teleportation-circle.html">Cercle de Téléportation</a></td>
+                        </tr>
+                    </table>
+                </div>
+        </section>
+        <section>
+            <h5 id="erotlw-sentinelmark">Marque de la Sentinelle</h5>
+            <p class="description">Utilisez les <a href="#ph">traits standards</a> hormis l'Augmentation de caractéristiques et ajoutez les traits suivants.</p>
+            <p><b>Augmentation de caractéristiques. </b>Votre Constitution augmente de 2 et votre Sagesse augmente de 1.</p> 
+            <p><b>Intuition de la sentinelle. </b>Chaque fois que vous effectuez un test de Perspicacité ou de Perception, vous pouvez lancer 1d4 et ajouter le nombre obtenu au test.</p>
+            <p><b>Bouclier du gardien. </b>Vous pouvez lancer le sort <a href="../../spells/abjuration/1/shield.html">Bouclier</a>. Une fois que vous avez lancé ce sort avec ce trait, vous ne pouvez plus lancer ce sort tant que vous n'avez pas terminé un repos long. La Sagesse est votre caractéristique pour le sort lancé avec ce trait</p>
+            <p><b>Gardien vigilant. </b>Une fois qu'une créature que vous pouvez voir à moins de 1,50 mètre (5 feet) de vous est touchée par un jet d'attaque, vous pouvez utiliser votre réaction pour échanger de place avec la créature, et vous êtes touché par l'attaque à la place. Une fois que vous utilisez ce trait, vous ne pouvez plus le faire avant d'avoir terminé un repos long.</p>
+            <p><b>Sorts de la marque de la sentinelle. </b>Si vous disposez d'une classe de lanceur de sorts, les sorts du tableau suivant sont ajoutés à la liste de sorts de votre classe.</p>
+            <input type="button" value="Sorts de la Marque de la Sentinelle &#11163;" onclick="masquerDiv('sentinelmark');" />
+                <div id="sentinelmark">
+                    <table>
+                        <tr>
+                            <th>Niveau de sort</th>
+                            <th>Sorts</th>
+                        </tr>
+                        <tr>
+                            <td>1er</td>
+                            <td><a href="../../spells/enchantment/1/compelled-duel.html">Duel Forcé</a> , <a href="../../spells/abjuration/1/shield-of-faith.html">Bouclier de la Foi</a></td>
+                        </tr>
+                        <tr>
+                            <td>2ème</td>
+                            <td><a href="../../spells/abjuration/2/warding-bond.html">Lien de Protection</a> , <a href="../../spells/enchantment/2/zone-of-truth.html">Zone de Vérité</a></td>
+                        </tr>
+                        <tr>
+                            <td>3ème</td>
+                            <td><a href="../../spells/abjuration/3/counterspell.html">Contresort</a> , <a href="../../spells/abjuration/3/protection-from-energy.html">Protection Contre une Énérgie</a></td>
+                        </tr>
+                        <tr>
+                            <td>4ème</td>
+                            <td><a href="../../spells/abjuration/4/death-ward.html">Protection Contre la Mort</a> , <a href="../../spells/conjuration/4/guardian-of-faith.html">Gardien de la Foi</a></td>
+                        </tr>
+                        <tr>
+                            <td>5ème</td>
+                            <td><a href="../../spells/evocation/5/bigbys-hand.html">Main de Bigby</a></td>
+                        </tr>
+                    </table>
+                </div>
+        </section>
+    </main>
+    <footer>
+        <p>Toutes les informations présentées ici sont issues du site anglophone <a href="http://dnd5e.wikidot.com/">DND5e Wikidot.com</a></p>
+        <p>Sauf indication contraire, le contenu de cette page est sous licence <a href="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0</a></p>
+    </footer>
+    <script src="../../assets/javascript/race.js"></script>
+</body>
+</html>
